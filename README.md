@@ -7,7 +7,7 @@ Recreation of Weatherscan Local; a version of Weatherscan that lasted from the l
 ## Cue Codes
 
 ### LDL:
-- domestic/XLScan
+- domestic/wxscanXL
 - presID: 1
 - duration = 9419
 - reloadandrepeat is **ENABLED**
