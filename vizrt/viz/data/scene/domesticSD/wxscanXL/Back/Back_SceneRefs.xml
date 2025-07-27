@@ -1,0 +1,18 @@
+<SceneRefs resolution="1" version="2.10.6" nextRef="2" hasErrors="false">
+  <Metadata />
+  <Refs>
+    <Ref name="ExternalImage.1/1.1/1/2." key="{ref_1}" dataType="LocalExternalImage" desc="DATA" configurable="true" noLookupRequired="true" maxSize="720,480" minSize="0,0" catalogRoot="externalimage" />
+  </Refs>
+  <StaticAssets>
+    <StaticAsset path="font/domesticSD/AkziendzGrotesk/AkzidenzGroteskBE-MdEx.peak">
+      <UsedBy>1/1/1/1</UsedBy>
+      <UsedBy>1/1/1/2</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets>
+    <DynamicAsset path="image/">
+      <UsedBy>1/1/2/1</UsedBy>
+    </DynamicAsset>
+  </DynamicAssets>
+  <Export version="7.0.0.19713" user="SYSTEM" host="I2ADMIN-9IFRV8Q" timestamp="2025-07-22 05:33:56" />
+</SceneRefs>

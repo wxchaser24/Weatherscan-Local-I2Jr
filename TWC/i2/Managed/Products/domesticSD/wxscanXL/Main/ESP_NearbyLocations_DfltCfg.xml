@@ -1,0 +1,36 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_7" value="{NearbyLocation1}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_6" value="{NearbyLocation2}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5" value="{NearbyLocation3}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_4" value="{NearbyLocation4}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_3" value="{NearbyLocation5}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_2" value="{NearbyLocation6}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_1" value="{NearbyLocation7}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_0" value="{NearbyLocation8}-ObsIconMapping-WxManMapping" />
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+</Config>

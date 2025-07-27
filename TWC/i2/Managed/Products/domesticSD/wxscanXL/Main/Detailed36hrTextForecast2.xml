@@ -1,0 +1,24 @@
+<Product>
+  <ScenePath>domesticSD\wxscanXL\Main\Detailed36HRForecast2</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="8" displayOrder="23" duration="160" min="150" max="180" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="36hrAnimatedForecast2,36hrAnimatedForecast3,36hrAnimatedForecast4,Detailed36hrTextForecast3,Detailed36hrTextForecast4" />
+    </Rule>
+  </Ruleset>
+</Product>

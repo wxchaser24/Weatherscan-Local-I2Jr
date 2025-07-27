@@ -1,0 +1,17 @@
+<SceneRefs resolution="1" version="2.10.6" nextRef="1" hasErrors="false">
+  <Metadata />
+  <Refs>
+    <Ref name="DataObject.1/1.1/1/2." key="{ref_0}" dataType="LocalTextLabel" desc="DATA" configurable="true" noLookupRequired="true" allowNewLine="false" />
+  </Refs>
+  <StaticAssets>
+    <StaticAsset path="image/domesticSD/project_specific/wxscanXL/templates/ProviderVizTemplate.peak">
+      <UsedBy>1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domesticSD/AkziendzGrotesk/Berthold-Akzidenz-Grotesk-BE-MdEx.peak">
+      <UsedBy>1/1/2/1</UsedBy>
+      <UsedBy>1/1/2/2</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets />
+  <Export version="7.0.0.19713" user="SYSTEM" host="I2ADMIN-9IFRV8Q" timestamp="2025-07-18 16:39:14" />
+</SceneRefs>

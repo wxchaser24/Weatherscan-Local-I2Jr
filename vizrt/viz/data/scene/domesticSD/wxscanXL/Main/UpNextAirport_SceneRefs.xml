@@ -1,0 +1,21 @@
+<SceneRefs resolution="1" version="2.10.6" nextRef="0" hasErrors="false">
+  <Metadata />
+  <Refs />
+  <StaticAssets>
+    <StaticAsset path="image/domesticSD/project_specific/wxscanXL/templates/UpNextAirport.peak">
+      <UsedBy>1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domesticSD/project_specific/wxscanXL/assets/upnext-arrow.peak">
+      <UsedBy>1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domesticSD/AkziendzGrotesk/Berthold-Akzidenz-Grotesk-Bold.peak">
+      <UsedBy>1/3/1</UsedBy>
+      <UsedBy>1/3/2</UsedBy>
+      <UsedBy>1/3/3</UsedBy>
+      <UsedBy>1/3/4</UsedBy>
+      <UsedBy>1/3/5</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets />
+  <Export version="7.0.0.19713" user="SYSTEM" host="I2ADMIN-9IFRV8Q" timestamp="2025-07-18 16:40:56" />
+</SceneRefs>

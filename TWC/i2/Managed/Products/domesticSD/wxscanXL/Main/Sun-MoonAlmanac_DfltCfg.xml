@@ -1,0 +1,34 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_7" value="{PrimaryLocation}-{DayPlusZero}" />
+      <ConfigItem key="ref_6" value="{PrimaryLocation}-{DayPlusOne}" />
+      <ConfigItem key="ref_3" value="{PrimaryLocation}-{DayPlusZero}-1" />
+      <ConfigItem key="ref_2" value="{PrimaryLocation}-{DayPlusZero}-2" />
+      <ConfigItem key="ref_1" value="{PrimaryLocation}-{DayPlusZero}-3" />
+      <ConfigItem key="ref_0" value="{PrimaryLocation}-{DayPlusZero}-4" />
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+</Config>

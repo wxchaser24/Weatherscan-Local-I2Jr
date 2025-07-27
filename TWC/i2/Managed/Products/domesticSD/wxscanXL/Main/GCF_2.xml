@@ -1,0 +1,57 @@
+<Product>
+  <ScenePath>domesticSD\wxscanXL\Main\GolfCourseFcst</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+      <Ref name="DataSourceI2_LocalDailyFcst_0" dataType="LocalDailyFcst" key="{PrimaryLocation}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="contains" type="Boolean">
+            <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+            <Literal type="StringList">
+              <Value>Enhanced Full Screen Lot8s</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="1" displayBucket="" displayIcon="" displayOrder="69" duration="390" min="300" max="390" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" onlyShowInTransitionOnce="false" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="not" type="Boolean">
+            <Function name="if" type="Boolean">
+              <Function name="exists" type="Boolean">
+                <Literal type="String">
+                  <Value>DataSourceI2_LocalDailyFcst_0</Value>
+                </Literal>
+                <Literal type="String">
+                  <Value>tempHigh</Value>
+                </Literal>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="1" displayOrder="1" duration="0" min="30" max="0" step="0" repeatStart="0" repeatInterval="0" exclusiveProducts="" onlyShowInTransitionOnce="false" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="1" displayBucket="" displayIcon="" displayOrder="69" duration="390" min="300" max="390" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" onlyShowInTransitionOnce="false" />
+    </Rule>
+  </Ruleset>
+</Product>

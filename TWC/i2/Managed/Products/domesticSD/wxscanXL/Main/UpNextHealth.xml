@@ -1,0 +1,37 @@
+<Product>
+  <ScenePath>domesticSD\wxscanXL\Main\UpNextHealth</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="contains" type="Boolean">
+            <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+            <Literal type="StringList">
+              <Value>.Product Test</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="9" displayOrder="78" duration="250" min="210" max="410" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="9" displayOrder="78" duration="250" min="210" max="410" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" />
+    </Rule>
+  </Ruleset>
+</Product>

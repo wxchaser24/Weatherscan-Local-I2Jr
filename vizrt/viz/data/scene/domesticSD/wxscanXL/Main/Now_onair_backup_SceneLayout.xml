@@ -1,0 +1,29 @@
+<SceneLayout version="1.2.17" type="viz" screenBoundingBox="0,0,0.9986111,0.9979166" hasErrors="false">
+  <Windows />
+  <DesignAutoLayouts />
+  <Scrollers />
+  <Audio>
+    <Audio path="1/1" refName="SingleClipAudio.1.1/1." startFrame="0" endFrame="0" track="1" level="1" mix="0.2" balance="0" truncate="False" mode="1" />
+  </Audio>
+  <PlaylistScrollers />
+  <WarningPolygons />
+  <Maps />
+  <Movies />
+  <RoadLabelManagers />
+  <MinMaxControllers />
+  <DataWriters />
+  <PausePointControllers />
+  <Timeline name="Default" start="0" duration="0">
+    <Animation path="1/2" />
+    <Animation path="1/2/1" />
+  </Timeline>
+  <Timeline name="AUDIO" start="0" duration="90">
+    <Track channel="1">
+      <Clips>
+        <Clip time="0" duration="90" clipStart="0" clipEnd="3">
+        </Clip>
+      </Clips>
+    </Track>
+  </Timeline>
+  <Export version="7.0.0.19713" user="SYSTEM" host="I2ADMIN-9IFRV8Q" timestamp="2025-07-25 19:14:06" />
+</SceneLayout>

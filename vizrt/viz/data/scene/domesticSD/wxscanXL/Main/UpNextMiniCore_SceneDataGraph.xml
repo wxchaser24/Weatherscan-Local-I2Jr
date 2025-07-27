@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataGraphOutput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>LOCPROPS</Label>
+      <Path>topNode/UPNEXT/LOCPROPS</Path>
+      <FullPath>1/3/2</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_0}" fieldName="locCity" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locCountry" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locCounty" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locDaylightSavingsActive" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locGMTDiff" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locNameCaps" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locState" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>ForecastFor</Path>
+      <FullPath>1/3/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+  </DataGraphNode>
+</DataGraphOutput>

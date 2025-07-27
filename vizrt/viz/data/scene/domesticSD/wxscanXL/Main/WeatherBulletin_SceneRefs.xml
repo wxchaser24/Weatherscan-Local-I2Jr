@@ -1,0 +1,21 @@
+<SceneRefs resolution="1" version="2.10.6" nextRef="4" hasErrors="false">
+  <Metadata />
+  <Refs>
+    <Ref name="DataObject.1/1/2.1/1/2/1." key="{ref_3}" dataType="LocalLocationProps" desc="LOCPROPS" configurable="true" />
+    <Ref name="DataObject.1/1/2.1/1/2/2." key="{ref_1}" dataType="LocalHeadline" desc="HEADLINE1" configurable="true" />
+  </Refs>
+  <StaticAssets>
+    <StaticAsset path="image/domesticSD/project_specific/wxscanXL/templates/WeatherBulletinVizTemplate.peak">
+      <UsedBy>1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domesticSD/AkziendzGrotesk/Berthold-Akzidenz-Grotesk-BE-MdEx.peak">
+      <UsedBy>1/1/2/1/1</UsedBy>
+      <UsedBy>1/1/2/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domesticSD/AkziendzGrotesk/Berthold-Akzidenz-Grotesk-Bold.peak">
+      <UsedBy>1/1/2/2/1</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets />
+  <Export version="7.0.0.19713" user="SYSTEM" host="I2ADMIN-9IFRV8Q" timestamp="2025-07-21 16:26:35" />
+</SceneRefs>

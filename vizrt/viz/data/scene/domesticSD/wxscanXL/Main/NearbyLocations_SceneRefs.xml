@@ -1,0 +1,70 @@
+<SceneRefs resolution="1" version="2.10.6" nextRef="8" hasErrors="false">
+  <Metadata />
+  <Refs>
+    <Ref name="DataObject.1/1/3/1.1/1/3/1/1." key="{ref_0}" dataType="LocalObs" desc="DP4" configurable="true" />
+    <Ref name="DataObject.1/1/3/1.1/1/3/1/2." key="{ref_1}" dataType="LocalObs" desc="DP4" configurable="true" />
+    <Ref name="DataObject.1/1/3/1.1/1/3/1/3." key="{ref_2}" dataType="LocalObs" desc="DP4" configurable="true" />
+    <Ref name="DataObject.1/1/3/1.1/1/3/1/4." key="{ref_3}" dataType="LocalObs" desc="DP4" configurable="true" />
+    <Ref name="DataObject.1/1/3/2.1/1/3/2/1." key="{ref_4}" dataType="LocalObs" desc="DP4" configurable="true" />
+    <Ref name="DataObject.1/1/3/2.1/1/3/2/2." key="{ref_5}" dataType="LocalObs" desc="DP4" configurable="true" />
+    <Ref name="DataObject.1/1/3/2.1/1/3/2/3." key="{ref_6}" dataType="LocalObs" desc="DP4" configurable="true" />
+    <Ref name="DataObject.1/1/3/2.1/1/3/2/4." key="{ref_7}" dataType="LocalObs" desc="DP4" configurable="true" />
+  </Refs>
+  <StaticAssets>
+    <StaticAsset path="image/domesticSD/project_specific/wxscanXL/examples/8cityex.peak">
+      <UsedBy>1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domesticSD/project_specific/wxscanXL/templates/8City.peak">
+      <UsedBy>1/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domesticSD/AkziendzGrotesk/Berthold-Akzidenz-Grotesk-Condensed.peak">
+      <UsedBy>1/1/3/1/1/2/1/1</UsedBy>
+      <UsedBy>1/1/3/1/1/2/2/2</UsedBy>
+      <UsedBy>1/1/3/1/1/3</UsedBy>
+      <UsedBy>1/1/3/1/2/2/1/1</UsedBy>
+      <UsedBy>1/1/3/1/2/2/2/2</UsedBy>
+      <UsedBy>1/1/3/1/2/3</UsedBy>
+      <UsedBy>1/1/3/1/3/2/1/1</UsedBy>
+      <UsedBy>1/1/3/1/3/2/2/2</UsedBy>
+      <UsedBy>1/1/3/1/3/3</UsedBy>
+      <UsedBy>1/1/3/1/4/2/1/1</UsedBy>
+      <UsedBy>1/1/3/1/4/2/2/2</UsedBy>
+      <UsedBy>1/1/3/1/4/3</UsedBy>
+      <UsedBy>1/1/3/2/1/2/1/1</UsedBy>
+      <UsedBy>1/1/3/2/1/2/2/2</UsedBy>
+      <UsedBy>1/1/3/2/1/3</UsedBy>
+      <UsedBy>1/1/3/2/2/2/1/1</UsedBy>
+      <UsedBy>1/1/3/2/2/2/2/2</UsedBy>
+      <UsedBy>1/1/3/2/2/3</UsedBy>
+      <UsedBy>1/1/3/2/3/2/1/1</UsedBy>
+      <UsedBy>1/1/3/2/3/2/2/2</UsedBy>
+      <UsedBy>1/1/3/2/3/3</UsedBy>
+      <UsedBy>1/1/3/2/4/2/1/1/1</UsedBy>
+      <UsedBy>1/1/3/2/4/2/1/2/1</UsedBy>
+      <UsedBy>1/1/3/2/4/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domesticSD/AkziendzGrotesk/Berthold-Akzidenz-Grotesk-BE-MdEx.peak">
+      <UsedBy>1/1/3/1/1/4</UsedBy>
+      <UsedBy>1/1/3/1/2/4</UsedBy>
+      <UsedBy>1/1/3/1/3/4</UsedBy>
+      <UsedBy>1/1/3/1/4/4</UsedBy>
+      <UsedBy>1/1/3/2/1/4</UsedBy>
+      <UsedBy>1/1/3/2/2/4</UsedBy>
+      <UsedBy>1/1/3/2/3/4</UsedBy>
+      <UsedBy>1/1/3/2/4/4</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets>
+    <DynamicAsset path="image/domesticSD/project_specific/wxscanXL/assets/icons/">
+      <UsedBy>1/1/3/1/1/1</UsedBy>
+      <UsedBy>1/1/3/1/2/1</UsedBy>
+      <UsedBy>1/1/3/1/3/1</UsedBy>
+      <UsedBy>1/1/3/1/4/1</UsedBy>
+      <UsedBy>1/1/3/2/1/1</UsedBy>
+      <UsedBy>1/1/3/2/2/1</UsedBy>
+      <UsedBy>1/1/3/2/3/1</UsedBy>
+      <UsedBy>1/1/3/2/4/1</UsedBy>
+    </DynamicAsset>
+  </DynamicAssets>
+  <Export version="7.0.0.19713" user="SYSTEM" host="I2ADMIN-9IFRV8Q" timestamp="2025-07-22 20:20:05" />
+</SceneRefs>

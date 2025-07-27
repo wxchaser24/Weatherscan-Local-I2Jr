@@ -1,0 +1,24 @@
+<SceneLayout version="1.2.17" type="viz" screenBoundingBox="0,0,0.9986111,0.9979166" hasErrors="false">
+  <Windows />
+  <DesignAutoLayouts />
+  <Scrollers />
+  <Audio />
+  <PlaylistScrollers />
+  <WarningPolygons />
+  <Maps />
+  <Movies />
+  <RoadLabelManagers />
+  <MinMaxControllers />
+  <DataWriters />
+  <PausePointControllers />
+  <Timeline name="Default" start="0" duration="30">
+    <Event type="Pause" time="0" duration="150" name="" direction="Normal" />
+    <Event type="Pause" time="10" duration="150" name="" direction="Normal" />
+    <Event type="Pause" time="20" duration="150" name="" direction="Normal" />
+    <Animation path="1/1/2/1/1" />
+    <Animation path="1/1/2/2" />
+    <Animation path="1/1/2/3" />
+    <Animation path="1/1/2/4" />
+  </Timeline>
+  <Export version="7.0.0.19713" user="SYSTEM" host="I2ADMIN-9IFRV8Q" timestamp="2025-07-18 16:17:05" />
+</SceneLayout>
