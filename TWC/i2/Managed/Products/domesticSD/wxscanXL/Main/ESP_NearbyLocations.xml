@@ -1,0 +1,67 @@
+<Product>
+  <ScenePath>domesticSD\wxscanXL\Main\ESP_NearbyLocations</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+      <Ref name="DataSourceI2_LocalObs_0" dataType="LocalObs" key="{PrimaryLocation}-ObsIconMapping-WxManMapping" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="contains" type="Boolean">
+            <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+            <Literal type="StringList">
+              <Value>.Product Test</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="6" displayBucket="" displayIcon="" displayOrder="54" duration="730" min="270" max="355" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" onlyShowInTransitionOnce="false" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="not" type="Boolean">
+            <Function name="if" type="Boolean">
+              <Function name="and" type="Boolean">
+                <Function name="exists" type="Boolean">
+                  <Literal type="String">
+                    <Value>DataSourceI2_LocalObs_0</Value>
+                  </Literal>
+                  <Literal type="String">
+                    <Value>temp</Value>
+                  </Literal>
+                </Function>
+                <Function name="exists" type="Boolean">
+                  <Literal type="String">
+                    <Value>DataSourceI2_LocalObs_0</Value>
+                  </Literal>
+                  <Literal type="String">
+                    <Value>wx</Value>
+                  </Literal>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="1" displayOrder="1" duration="0" min="120" max="0" step="0" repeatStart="0" repeatInterval="1" exclusiveProducts="" onlyShowInTransitionOnce="false" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="10" displayBucket="" displayIcon="" displayOrder="54" duration="730" min="270" max="355" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" onlyShowInTransitionOnce="false" />
+    </Rule>
+  </Ruleset>
+</Product>

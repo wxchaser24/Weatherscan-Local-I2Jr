@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataGraphOutput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>DATA</Label>
+      <Path>topNode/UVSAFETYFACTS/DATA</Path>
+      <FullPath>1/3/1</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_0}" fieldName="defaultFile" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="filePrefix" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="text" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>text</Path>
+      <FullPath>1/3/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="text" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+  </DataGraphNode>
+</DataGraphOutput>

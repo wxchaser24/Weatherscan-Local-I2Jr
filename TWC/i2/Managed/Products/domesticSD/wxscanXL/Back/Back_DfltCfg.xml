@@ -1,0 +1,108 @@
+<Config name="default">
+<Ruleset>
+<DataRefs>
+<Ref name="DataSourceI2_system_0" dataType="system" key="system"/>
+<Ref name="DataSourceI2_identity_0" dataType="identity" key="identity"/>
+<Ref name="DataSourceI2_LocalDailyFcst_0" dataType="LocalDailyFcst" key="{PrimaryLocation}-{DayPlusZero}-FcstIconMapping-WxManMapping"/>
+</DataRefs>
+<Rule>
+<Code>
+<Function name="if" type="Boolean">
+<Function name="or" type="Boolean">
+<Function name="if" type="Boolean">
+<Function name="if" type="Boolean">
+<Function name="if" type="Boolean">
+<Function name="contains" type="Boolean">
+<Field name="iconCodeVar" source="DataSourceI2_LocalDailyFcst_0" type="StringList"/>
+<Literal type="StringList">
+<Value>3100,3110,3200,3210,3300,3310,3400,3410,9103,9113</Value>
+</Literal>
+</Function>
+</Function>
+</Function>
+</Function>
+<Function name="if" type="Boolean">
+<Function name="if" type="Boolean">
+<Function name="if" type="Boolean">
+<Function name="contains" type="Boolean">
+<Field name="iconCodeVar" source="DataSourceI2_LocalDailyFcst_0" type="StringList"/>
+<Literal type="StringList">
+<Value>2100,2110,2900,2910,3000,3010,9000,9003,9010,9013,9100,9110</Value>
+</Literal>
+</Function>
+</Function>
+</Function>
+</Function>
+</Function>
+</Function>
+</Code>
+<ConfigDef name="ProductConfig_1"/>
+</Rule>
+<Rule>
+<Code>
+<Function name="if" type="Boolean">
+<Function name="or" type="Boolean">
+<Function name="if" type="Boolean">
+<Function name="if" type="Boolean">
+<Function name="if" type="Boolean">
+<Function name="contains" type="Boolean">
+<Field name="iconCodeVar" source="DataSourceI2_LocalDailyFcst_0" type="StringList"/>
+<Literal type="StringList">
+<Value>0900,0910,0950,1100,1110,1140,1170,3700,3709,3710,3719,3800,3809,3810,3819,3900,3909,3910,3919,4500,4510,4600,4610,4900,4910,5700,5709,5710,5719,6000,6003,6010,6013,6100,6103,6110,6113,6140,6143,6170,6173,6401,6404,6411,6414,7000,7003,7010,7013,7100,7103,7110,7113,7140,7143,7170,7173,7401,7404,7411,7414</Value>
+</Literal>
+</Function>
+</Function>
+</Function>
+</Function>
+<Function name="if" type="Boolean">
+<Function name="if" type="Boolean">
+<Function name="if" type="Boolean">
+<Function name="contains" type="Boolean">
+<Field name="iconCodeVar" source="DataSourceI2_LocalDailyFcst_0" type="StringList"/>
+<Literal type="StringList">
+<Value>0300,0310,0400,0402,0410,0412,0500,0510,0600,0601,0610,0611,1200,1201,1210,1211,1240,1251,1270,4000,4010,5300,5301,5302,5310,5311,5312,5351,5500,5509,6200,6203,6210,6213,6300,6301,6303,6304,6310,6311,6313,6314,6400,6403,6410,6413,6500,6501,6503,6504,6510,6511,6513,6514,7200,7203,7210,7213,7300,7301,7303,7304,7310,7311,7313,7314,7400,7403,7410,7413,7500,7501,7503,7504,7510,7511,7513,7514,8000,8010,8100,8110,8200,8210,8300,8310,8500,8510,8900,8910,9500,9510</Value>
+</Literal>
+</Function>
+</Function>
+</Function>
+</Function>
+</Function>
+</Function>
+</Code>
+<ConfigDef name="ProductConfig_2"/>
+</Rule>
+<Rule>
+<Code>
+<Function name="if" type="Boolean">
+<Function name="equal" type="Boolean">
+<Literal type="Number">
+<Value>1</Value>
+</Literal>
+<Literal type="Number">
+<Value>1</Value>
+</Literal>
+</Function>
+</Function>
+</Code>
+<ConfigDef name="default"/>
+</Rule>
+</Ruleset>
+<ConfigDef name="ProductConfig_1">
+<ConfigItems>
+<ConfigItem key="ref_1" value="C:/Program Files/vizrt/viz/data/externalimage/domestic/affiliateLogos/Provider.png"/>
+</ConfigItems>
+<ConfigRecords/>
+</ConfigDef>
+<ConfigDef name="ProductConfig_2">
+<ConfigItems>
+<ConfigItem key="ref_1" value="C:/Program Files/vizrt/viz/data/externalimage/domestic/affiliateLogos/Provider.png"/>
+</ConfigItems>
+<ConfigRecords/>
+</ConfigDef>
+<ConfigDef name="default">
+<ConfigItems>
+<ConfigItem key="ref_1" value="C:/Program Files/vizrt/viz/data/externalimage/domestic/affiliateLogos/Provider.png"/>
+</ConfigItems>
+<ConfigRecords/>
+</ConfigDef>
+</Config>

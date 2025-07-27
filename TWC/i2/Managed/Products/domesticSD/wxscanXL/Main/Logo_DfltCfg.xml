@@ -1,0 +1,6 @@
+<Config name="default">
+  <ConfigDef name="default">
+    <ConfigItems />
+    <ConfigRecords />
+  </ConfigDef>
+</Config>

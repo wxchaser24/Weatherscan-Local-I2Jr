@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataGraphOutput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>LOCPROPS</Label>
+      <Path>topNode/WEATHER_BULLETIN/DATA/LOCPROPS</Path>
+      <FullPath>1/1/2/1</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_3}" fieldName="locCity" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locCountry" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locCounty" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locDaylightSavingsActive" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locGMTDiff" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locNameCaps" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locState" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>locName26</Path>
+      <FullPath>1/1/2/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="locName26" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>HEADLINE1</Label>
+      <Path>topNode/WEATHER_BULLETIN/DATA/HEADLINE1</Path>
+      <FullPath>1/1/2/2</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_1}" fieldName="phenomena" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="phenomenaSignificance" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="priority" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="significance" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="text" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>text</Path>
+      <FullPath>1/1/2/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="text" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+  </DataGraphNode>
+</DataGraphOutput>

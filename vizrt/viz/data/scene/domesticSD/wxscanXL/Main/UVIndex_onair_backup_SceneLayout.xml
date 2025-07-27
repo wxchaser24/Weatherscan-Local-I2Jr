@@ -1,0 +1,17 @@
+<SceneLayout version="1.2.18" type="viz" screenBoundingBox="0,0,0.9986111,0.9979166" hasErrors="false">
+  <Windows />
+  <DesignAutoLayouts />
+  <Scrollers />
+  <Audio />
+  <PlaylistScrollers />
+  <WarningPolygons />
+  <Maps />
+  <Movies />
+  <RoadLabelManagers />
+  <MinMaxControllers />
+  <DataWriters />
+  <ScenePreload />
+  <PausePointControllers />
+  <Timeline name="Default" start="0" duration="0" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="DESKTOP-1FL10LM" timestamp="2025-03-05 20:33:31" />
+</SceneLayout>

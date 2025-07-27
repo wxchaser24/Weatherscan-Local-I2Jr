@@ -1,0 +1,37 @@
+<Product>
+  <ScenePath>domesticSD\wxscanXL\Main\Detailed36HRForecast3</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="contains" type="Boolean">
+            <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+            <Literal type="StringList">
+              <Value>.Product Test</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="9" displayOrder="26" duration="1229" min="450" max="1335" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="Detailed36hrTextForecast2,Detailed36hrTextForecast4" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="75" displayOrder="26" duration="1229" min="450" max="1335" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="36hrAnimatedForecast2,36hrAnimatedForecast3,36hrAnimatedForecast4,Detailed36hrTextForecast2,Detailed36hrTextForecast4" />
+    </Rule>
+  </Ruleset>
+</Product>

@@ -1,0 +1,52 @@
+<SceneLayout version="1.2.17" type="viz" screenBoundingBox="0,0,0.9986111,0.9979166" hasErrors="false">
+  <Windows />
+  <DesignAutoLayouts>
+    <DesignAutoLayout path="1/1/1/1/4" layoutFrame="0" />
+  </DesignAutoLayouts>
+  <Scrollers />
+  <Audio />
+  <PlaylistScrollers />
+  <WarningPolygons />
+  <Maps>
+    <Map path="1/1/1/1" type="CWMClient" fileName="i2_US_30m_Topo_EC.cmr" />
+  </Maps>
+  <Movies />
+  <RoadLabelManagers>
+    <RoadLabelManager path="1/1/1/1/5/2/1" />
+  </RoadLabelManagers>
+  <MinMaxControllers />
+  <DataWriters />
+  <PausePointControllers />
+  <Timeline name="Default" start="0" duration="0">
+    <Event type="Pause" time="50" duration="150" name="Pause" direction="Both" />
+    <Animation path="1/1/1/1/3/1/1" />
+    <Animation path="1/1/1/1/5/1/2" />
+    <Animation path="1/1/1/1/5/3/1/1/1/1" />
+    <Animation path="1/1/1/1/5/3/1/1/2/1" />
+    <Animation path="1/1/1/1/5/3/1/2/1/1" />
+    <Animation path="1/1/1/1/5/3/1/2/2/1" />
+    <Animation path="1/1/1/1/5/3/1/3/1/1" />
+    <Animation path="1/1/1/1/5/3/1/3/2/1" />
+    <Animation path="1/1/1/1/5/3/1/4/1/1" />
+    <Animation path="1/1/1/1/5/3/1/4/2/1" />
+    <Animation path="1/1/1/1/5/3/1/5/1/1" />
+    <Animation path="1/1/1/1/5/3/1/5/2/1" />
+    <Animation path="1/1/1/1/5/3/1/6/1/1" />
+    <Animation path="1/1/1/1/5/3/1/6/2/1" />
+    <Animation path="1/2/2" />
+    <Animation path="1/2/3/1" />
+    <Animation path="1/2/4/1/1/1" />
+    <Animation path="1/2/4/1/1/2" />
+    <Animation path="1/2/4/1/2" />
+    <Animation path="1/2/4/1/2/2" />
+    <Animation path="1/2/4/1/2/2/3" />
+    <Animation path="1/2/5/1/1/1" />
+    <Animation path="1/2/5/1/1/2" />
+    <Animation path="1/2/5/1/2" />
+    <Animation path="1/2/5/1/2/1/1/1" />
+  </Timeline>
+  <Timeline name="Looping" start="0" duration="12011892">
+    <Animation path="1/1/1/1/1" />
+  </Timeline>
+  <Export version="7.0.0.19713" user="SYSTEM" host="I2ADMIN-9IFRV8Q" timestamp="2025-07-24 05:48:50" />
+</SceneLayout>

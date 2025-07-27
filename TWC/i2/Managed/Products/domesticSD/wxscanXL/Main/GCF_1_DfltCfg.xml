@@ -1,0 +1,80 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="timeBefore" type="Boolean">
+            <Field name="time" source="DataSourceI2_system_0" type="Time" />
+            <Literal type="Time">
+              <Value>03:00:00</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="ProductConfig_1" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="timeOnOrAfter" type="Boolean">
+            <Field name="time" source="DataSourceI2_system_0" type="Time" />
+            <Literal type="Time">
+              <Value>15:00:00</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="ProductConfig_2" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="ProductConfig_1">
+    <ConfigItems>
+      <ConfigItem key="ref_4" value="{PrimaryLocation}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_3" value="{PrimaryLocation}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_2" value="{PrimaryLocation}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_1" value="{PrimaryLocation}-{DayPlusThree}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_0" value="{PrimaryLocation}-{DayPlusFour}-FcstIconMapping-WxManMapping" />
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+  <ConfigDef name="ProductConfig_2">
+    <ConfigItems>
+      <ConfigItem key="ref_4" value="{PrimaryLocation}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_3" value="{PrimaryLocation}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_2" value="{PrimaryLocation}-{DayPlusThree}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_1" value="{PrimaryLocation}-{DayPlusFour}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_0" value="{PrimaryLocation}-{DayPlusFive}-FcstIconMapping-WxManMapping" />
+
+=    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_4" value="{PrimaryLocation}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_3" value="{PrimaryLocation}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_2" value="{PrimaryLocation}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_1" value="{PrimaryLocation}-{DayPlusThree}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_0" value="{PrimaryLocation}-{DayPlusFour}-FcstIconMapping-WxManMapping" />
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+</Config>
