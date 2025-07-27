@@ -9,7 +9,7 @@ Recreation of Weatherscan Local; a version of Weatherscan that lasted from the l
 ### LDL:
 - domestic/XLScan
 - presID: 1
-- duration = 7839
+- duration = 9419
 - reloadandrepeat is **ENABLED**
 
 ## Graphic Packages Included:
