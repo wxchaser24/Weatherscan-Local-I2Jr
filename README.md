@@ -26,7 +26,7 @@ Recreation of Weatherscan Local in Viz; a version of Weatherscan that lasted fro
 
 **1.** Once the .zip has been extracted, place the TWC and vizrt files in C:\Program Files\. **THIS WILL NOT OVERWRITE EXISTING FILES.**
 
-**2.** In Internet Explorer go to localhost:9091; or whatever port you set the web panel to, and look for "Load and Run Playlist", and input the values shown in the **Flavors** section of this README.
+**2.** In Internet Explorer go to localhost:9091; or whatever port you set the web panel to, and look for "**Load and Run Playlist**", and input the values shown in the **Flavors** section of this README.
 
 **You're all set! Open VLC, or any video playback software of your choice and open the network stream. You should see Noggi-XLScan running.**
 
