@@ -5,7 +5,7 @@ Recreation of Weatherscan Local in vizRT; a version of Weatherscan that lasted f
 
 >[!WARNING]
 > This Viz design must be run on an I2Jr only. Failure to follow this can result in the design having flaws or more likely, Viz crashing entirely.
------------------------------------------------------------------------------------------------------------------
+
 # Credits
 
 astinkyroach - Main Scene Designer
@@ -16,7 +16,6 @@ zachNet - Tester
 
 Miceoroni - Tester
 
------------------------------------------------------------------------------------------------------------------
 # Inital Setup
 
 ### REQUIRES:
@@ -30,7 +29,7 @@ Miceoroni - Tester
 
 **You're all set! Open VLC, or any video playback software of your choice and open the network stream. You should see Noggi-XLScan running.**
 
------------------------------------------------------------------------------------------------------------------
+
 
 # Flavors
 
