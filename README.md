@@ -40,6 +40,10 @@ Recreation of Weatherscan Local in Viz; a version of Weatherscan that lasted fro
 
 Need help with setting this up? Join the [***mist weather media*** Discord](https://discord.gg/hV2w5sZQxz) and go to the star-support channel.
 
+---------
+
+Do you have experience with viz!artist 2.8, or how the TWC product XMLs work? You're welcome to submit any issues, pull requests, and more! **Thank you.**
+
 # Flavors
 
 - Flavor: wxscanXL
