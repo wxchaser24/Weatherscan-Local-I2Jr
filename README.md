@@ -5,6 +5,7 @@ Recreation of Weatherscan Local in Viz; a version of Weatherscan that lasted fro
 
 >[!WARNING]
 > This Viz design **must** be run on an IntelliStar 2 Jr only. Failure to follow this can result in the design having flaws or more likely, Viz crashing entirely.
+
 > Please note that on most I2s, at **3:11 am**, it will kill the Viz process to prevent memory leaks. This will also stop the presentation. You can either turn off the **KillViz** process in **Task Scheduler**, but this isn't recommended due to memory leaks, or you can create a script that automatically recues after 3:11 am. A script like this will be made soon and put into the repository however.
 
 # Credits
