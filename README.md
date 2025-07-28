@@ -1,10 +1,10 @@
 # Noggi-XLScan
-Recreation of Weatherscan Local in vizRT; a version of Weatherscan that lasted from the late 1990s to the early 2000s.
+Recreation of Weatherscan Local in Viz; a version of Weatherscan that lasted from the late 1990s to the early 2000s.
 
 (not to be confused with Weatherscan Local for web)
 
 >[!WARNING]
-> This Viz design must be run on an I2Jr only. Failure to follow this can result in the design having flaws or more likely, Viz crashing entirely.
+> This Viz design **must** be run on an IntelliStar 2 Jr only. Failure to follow this can result in the design having flaws or more likely, Viz crashing entirely.
 
 # Credits
 
