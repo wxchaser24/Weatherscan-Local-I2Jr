@@ -8,13 +8,13 @@ Recreation of Weatherscan Local in vizRT; a version of Weatherscan that lasted f
 
 # Credits
 
-astinkyroach - Main Scene Designer
+**astinkyroach** - Main Scene Designer
 
-COLSTER - Template Design
+**COLSTER** - Template Design
 
-zachNet - Tester
+**zachNet** - Tester
 
-Miceoroni - Tester
+**Miceoroni** - Tester
 
 # Inital Setup
 
