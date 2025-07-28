@@ -29,6 +29,7 @@ Recreation of Weatherscan Local in Viz; a version of Weatherscan that lasted fro
  - An IntelliStar 2 Jr
  - Data Encoder for the I2Jr (Noggi-XLScan works best wth MistWX-I2ME, but you can try other data encoders. Some might not work as well however.)
  - Constant stream of data (This can be accomplished with I2ME and most data encoders out there.)
+ - 8 Locations in your Machine Product Config. This can be easily added by going to a website that provides the [weather codes](https://weather.codes/united-states-of-america/) the I2 uses; or by using the LFRecord file in your data encoder.
 
 **1.** Once the .zip has been extracted, place the TWC and vizrt files in C:\Program Files\. **THIS WILL NOT OVERWRITE EXISTING FILES.**
 
