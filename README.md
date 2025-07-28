@@ -3,7 +3,8 @@ Recreation of Weatherscan Local in Viz; a version of Weatherscan that lasted fro
 
 (not to be confused with Weatherscan Local for web)
 
-## This is your first look at Project Noggi, our project aiming to bring older TWC graphics to the IntelliStar 2 family through VizRT.
+### This is your first look at Project Noggi, our project aiming to bring older TWC graphics to the IntelliStar 2 family through VizRT.
+
 
 >[!WARNING]
 > This Viz design **must** be run on an IntelliStar 2 Jr only. Failure to follow this can result in the design having flaws or more likely, Viz crashing entirely.
