@@ -22,6 +22,7 @@ Recreation of Weatherscan Local in vizRT; a version of Weatherscan that lasted f
 
  - An IntelliStar 2 Jr
  - Data Encoder for the I2Jr (Noggi-XLScan works best wth MistWX-I2ME, but you can try other data encoders. Some might not work as well however.)
+ - Constant stream of data (This can be accomplished with I2ME and most data encoders out there.)
 
 **1.** Once the .zip has been extracted, place the TWC and vizrt files in C:\Program Files\. **THIS WILL NOT OVERWRITE EXISTING FILES.**
 
@@ -29,7 +30,9 @@ Recreation of Weatherscan Local in vizRT; a version of Weatherscan that lasted f
 
 **You're all set! Open VLC, or any video playback software of your choice and open the network stream. You should see Noggi-XLScan running.**
 
+---------
 
+Need help with setting this up? Join the [***mist weather media*** Discord](https://discord.gg/hV2w5sZQxz) and go to the star-support channel.
 
 # Flavors
 
@@ -49,3 +52,4 @@ Recreation of Weatherscan Local in vizRT; a version of Weatherscan that lasted f
 # To-Do
 
 - Add Aviation products (will be added when I2ME has airport support)
+- Add more map products
