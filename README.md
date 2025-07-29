@@ -22,6 +22,8 @@ Recreation of Weatherscan Local in Viz; a version of Weatherscan that lasted fro
 
 **Miceoroni** - Tester
 
+(C) Mist Weather Media 2025
+
 # Inital Setup
 
 ### REQUIRES:
