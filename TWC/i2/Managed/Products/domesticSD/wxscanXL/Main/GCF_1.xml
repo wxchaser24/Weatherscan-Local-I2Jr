@@ -51,7 +51,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="true" priority="1" displayBucket="" displayIcon="" displayOrder="66" duration="390" min="300" max="390" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" onlyShowInTransitionOnce="false" />
+      <PlaylistProps active="false" priority="1" displayBucket="" displayIcon="" displayOrder="66" duration="390" min="300" max="390" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" onlyShowInTransitionOnce="false" />
     </Rule>
   </Ruleset>
 </Product>

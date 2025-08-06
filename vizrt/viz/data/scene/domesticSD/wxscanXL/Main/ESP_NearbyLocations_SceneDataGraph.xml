@@ -88,7 +88,7 @@
       <Path>ICON</Path>
       <FullPath>1/1/2/1/1/1</FullPath>
       <InputFields>
-        <DataField key="{ref_0}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="skyIconCode" dataType="DataPool" />
       </InputFields>
       <OutputFields />
     </DataGraphNode>
@@ -250,7 +250,7 @@
       <Path>ICON</Path>
       <FullPath>1/1/2/1/2/1</FullPath>
       <InputFields>
-        <DataField key="{ref_1}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="skyIconCode" dataType="DataPool" />
       </InputFields>
       <OutputFields />
     </DataGraphNode>
@@ -412,7 +412,7 @@
       <Path>ICON</Path>
       <FullPath>1/1/2/1/3/1</FullPath>
       <InputFields>
-        <DataField key="{ref_2}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="skyIconCode" dataType="DataPool" />
       </InputFields>
       <OutputFields />
     </DataGraphNode>
@@ -574,7 +574,7 @@
       <Path>ICON</Path>
       <FullPath>1/1/2/1/4/1</FullPath>
       <InputFields>
-        <DataField key="{ref_3}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="skyIconCode" dataType="DataPool" />
       </InputFields>
       <OutputFields />
     </DataGraphNode>
@@ -736,7 +736,7 @@
       <Path>ICON</Path>
       <FullPath>1/1/2/2/1/1</FullPath>
       <InputFields>
-        <DataField key="{ref_4}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="skyIconCode" dataType="DataPool" />
       </InputFields>
       <OutputFields />
     </DataGraphNode>
@@ -898,7 +898,7 @@
       <Path>ICON</Path>
       <FullPath>1/1/2/2/2/1</FullPath>
       <InputFields>
-        <DataField key="{ref_5}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="skyIconCode" dataType="DataPool" />
       </InputFields>
       <OutputFields />
     </DataGraphNode>
@@ -1060,7 +1060,7 @@
       <Path>ICON</Path>
       <FullPath>1/1/2/2/3/1</FullPath>
       <InputFields>
-        <DataField key="{ref_6}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="skyIconCode" dataType="DataPool" />
       </InputFields>
       <OutputFields />
     </DataGraphNode>
@@ -1222,7 +1222,7 @@
       <Path>ICON</Path>
       <FullPath>1/1/2/2/4/1</FullPath>
       <InputFields>
-        <DataField key="{ref_7}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="skyIconCode" dataType="DataPool" />
       </InputFields>
       <OutputFields />
     </DataGraphNode>

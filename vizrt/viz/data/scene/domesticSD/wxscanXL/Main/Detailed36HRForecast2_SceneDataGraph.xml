@@ -8,8 +8,8 @@
       <FullPath>1/1/2/1</FullPath>
       <InputFields />
       <OutputFields>
-        <DataField key="{ref_0}" fieldName="FcstValidLocalValue" dataType="DataPool" />
-        <DataField key="{ref_0}" fieldName="ParentNodeValue" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="DayOrNightVar" dataType="DataPool" />
         <DataField key="{ref_0}" fieldName="altDayPart" dataType="DataPool" />
         <DataField key="{ref_0}" fieldName="audioCode" dataType="DataPool" />
         <DataField key="{ref_0}" fieldName="cloudCode" dataType="DataPool" />
@@ -42,6 +42,8 @@
         <DataField key="{ref_0}" fieldName="sensibleFcst" dataType="DataPool" />
         <DataField key="{ref_0}" fieldName="severeWxQualifier" dataType="DataPool" />
         <DataField key="{ref_0}" fieldName="shortFcst" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="skyIconFileName" dataType="DataPool" />
         <DataField key="{ref_0}" fieldName="snowAccum" dataType="DataPool" />
         <DataField key="{ref_0}" fieldName="snowChance" dataType="DataPool" />
         <DataField key="{ref_0}" fieldName="snowChanceAmt" dataType="DataPool" />
@@ -58,6 +60,7 @@
         <DataField key="{ref_0}" fieldName="uvIndex" dataType="DataPool" />
         <DataField key="{ref_0}" fieldName="uvIndexAmt" dataType="DataPool" />
         <DataField key="{ref_0}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="validTime" dataType="DataPool" />
         <DataField key="{ref_0}" fieldName="windChill" dataType="DataPool" />
         <DataField key="{ref_0}" fieldName="windDirValue" dataType="DataPool" />
         <DataField key="{ref_0}" fieldName="windDirection" dataType="DataPool" />
@@ -103,8 +106,8 @@
       <FullPath>1/1/2/2</FullPath>
       <InputFields />
       <OutputFields>
-        <DataField key="{ref_1}" fieldName="FcstValidLocalValue" dataType="DataPool" />
-        <DataField key="{ref_1}" fieldName="ParentNodeValue" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="DayOrNightVar" dataType="DataPool" />
         <DataField key="{ref_1}" fieldName="altDayPart" dataType="DataPool" />
         <DataField key="{ref_1}" fieldName="audioCode" dataType="DataPool" />
         <DataField key="{ref_1}" fieldName="cloudCode" dataType="DataPool" />
@@ -137,6 +140,8 @@
         <DataField key="{ref_1}" fieldName="sensibleFcst" dataType="DataPool" />
         <DataField key="{ref_1}" fieldName="severeWxQualifier" dataType="DataPool" />
         <DataField key="{ref_1}" fieldName="shortFcst" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="skyIconFileName" dataType="DataPool" />
         <DataField key="{ref_1}" fieldName="snowAccum" dataType="DataPool" />
         <DataField key="{ref_1}" fieldName="snowChance" dataType="DataPool" />
         <DataField key="{ref_1}" fieldName="snowChanceAmt" dataType="DataPool" />
@@ -153,6 +158,7 @@
         <DataField key="{ref_1}" fieldName="uvIndex" dataType="DataPool" />
         <DataField key="{ref_1}" fieldName="uvIndexAmt" dataType="DataPool" />
         <DataField key="{ref_1}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="validTime" dataType="DataPool" />
         <DataField key="{ref_1}" fieldName="windChill" dataType="DataPool" />
         <DataField key="{ref_1}" fieldName="windDirValue" dataType="DataPool" />
         <DataField key="{ref_1}" fieldName="windDirection" dataType="DataPool" />

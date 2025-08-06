@@ -1,4 +1,4 @@
-<SceneLayout version="1.2.17" type="viz" screenBoundingBox="0,0,0.9986111,0.9979166" hasErrors="false">
+<SceneLayout version="1.2.18" type="viz" screenBoundingBox="0,0,0.9986111,0.9979166" hasErrors="false">
   <Windows />
   <DesignAutoLayouts>
     <DesignAutoLayout path="1/1/1/1/4" layoutFrame="0" />
@@ -16,6 +16,7 @@
   </RoadLabelManagers>
   <MinMaxControllers />
   <DataWriters />
+  <ScenePreload />
   <PausePointControllers />
   <Timeline name="Default" start="0" duration="0">
     <Event type="Pause" time="50" duration="150" name="Pause" direction="Both" />
@@ -45,8 +46,8 @@
     <Animation path="1/2/5/1/2" />
     <Animation path="1/2/5/1/2/1/1/1" />
   </Timeline>
-  <Timeline name="Looping" start="0" duration="12011892">
+  <Timeline name="Looping" start="0" duration="10009910">
     <Animation path="1/1/1/1/1" />
   </Timeline>
-  <Export version="7.0.0.19713" user="SYSTEM" host="I2ADMIN-9IFRV8Q" timestamp="2025-07-24 05:48:50" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-06 03:31:54" />
 </SceneLayout>

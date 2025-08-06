@@ -108,7 +108,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="false" priority="1" displayOrder="1" duration="0" min="90" max="0" step="0" repeatStart="0" repeatInterval="1" exclusiveProducts="" />
+      <PlaylistProps active="true" priority="10" displayOrder="30" duration="300" min="150" max="320" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="7DayForecastHigh" />
     </Rule>
   </Ruleset>
 </Product>

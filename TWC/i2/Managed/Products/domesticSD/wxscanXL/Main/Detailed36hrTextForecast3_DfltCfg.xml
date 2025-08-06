@@ -212,6 +212,7 @@
       <ConfigItem key="ref_0" value="{PrimaryLocation}-{Next_12_to_24_Hours}-FcstIconMapping-WxManMapping" />
       <ConfigItem key="ref_1" value="{PrimaryLocation}-{Next_24_to_36_Hours}-FcstIconMapping-WxManMapping" />
       <ConfigItem key="ref_2" value="{PrimaryLocation}-{Next_36_to_48_Hours}-FcstIconMapping-WxManMapping" />
+	  <ConfigItem key="ref_3" value="audio/domesticSD/vocalLocal/WXSCAN_XL/DAYPART_DEFAULT2.wav" />		  
     </ConfigItems>
     <ConfigRecords />
   </ConfigDef>
@@ -220,6 +221,7 @@
       <ConfigItem key="ref_0" value="{PrimaryLocation}-{Next_12_to_24_Hours}-FcstIconMapping-WxManMapping" />
       <ConfigItem key="ref_1" value="{PrimaryLocation}-{Next_24_to_36_Hours}-FcstIconMapping-WxManMapping" />
       <ConfigItem key="ref_2" value="{PrimaryLocation}-{Next_36_to_48_Hours}-FcstIconMapping-WxManMapping" />
+	  <ConfigItem key="ref_3" value="audio/domesticSD/vocalLocal/WXSCAN_XL/DAYPART_DEFAULT2.wav" />		  
     </ConfigItems>
     <ConfigRecords />
   </ConfigDef>
@@ -228,6 +230,7 @@
       <ConfigItem key="ref_0" value="{PrimaryLocation}-{Next_12_Hours}-FcstIconMapping-WxManMapping" />
       <ConfigItem key="ref_1" value="{PrimaryLocation}-{Next_12_to_24_Hours}-FcstIconMapping-WxManMapping" />
       <ConfigItem key="ref_2" value="{PrimaryLocation}-{Next_24_to_36_Hours}-FcstIconMapping-WxManMapping" />
+	  <ConfigItem key="ref_3" value="audio/domesticSD/vocalLocal/WXSCAN_XL/DAYPART_DEFAULT2.wav" />		  
     </ConfigItems>
     <ConfigRecords />
   </ConfigDef>

@@ -1,0 +1,106 @@
+<SceneLayout version="1.2.18" type="viz" screenBoundingBox="0,0.81875,0.9986111,0.1604167" hasErrors="false">
+  <Windows />
+  <DesignAutoLayouts />
+  <Scrollers>
+    <Scroller name="Scroller.Scroll.1/6.Scroller" type="LocalBulletinCrawl" mode="Multi" key="" linkedObject="linkedObject" />
+  </Scrollers>
+  <Audio />
+  <PlaylistScrollers />
+  <WarningPolygons />
+  <Maps />
+  <Movies />
+  <RoadLabelManagers />
+  <MinMaxControllers />
+  <DataWriters />
+  <ScenePreload />
+  <PausePointControllers />
+  <Timeline name="Default" start="0" duration="25">
+    <Event type="Stop" time="35" duration="0" name="Pause" direction="Both" />
+    <Animation path="1/4/3" />
+    <Animation path="1/4/4" />
+    <Animation path="1/6" />
+  </Timeline>
+  <Timeline name="Audio" start="0" duration="3996">
+    <Event type="Stop" time="2" duration="0" name="1_BeepStart" direction="Both" />
+    <Event type="Stop" time="14" duration="0" name="1_BeepEnd" direction="Both" />
+    <Event type="Stop" time="15" duration="0" name="2_BeepStart" direction="Both" />
+    <Event type="Stop" time="54" duration="0" name="2_BeepEnd" direction="Both" />
+    <Event type="Stop" time="57" duration="0" name="3_BeepStart" direction="Both" />
+    <Event type="Stop" time="124" duration="0" name="3_BeepEnd" direction="Both" />
+    <Event type="Stop" time="126" duration="0" name="4_BeepStart" direction="Both" />
+    <Event type="Stop" time="221" duration="0" name="4_BeepEnd" direction="Both" />
+    <Event type="Stop" time="223" duration="0" name="4_TOWStart" direction="Both" />
+    <Event type="Stop" time="517" duration="0" name="4_TOWEnd" direction="Both" />
+    <Event type="Stop" time="522" duration="0" name="4_SVWStart" direction="Both" />
+    <Event type="Stop" time="838" duration="0" name="4_SVWEnd" direction="Both" />
+    <Event type="Stop" time="843" duration="0" name="4_FAWStart" direction="Both" />
+    <Event type="Stop" time="1132" duration="0" name="4_FAWEnd" direction="Both" />
+    <Event type="Stop" time="1137" duration="0" name="4_EWWStart" direction="Both" />
+    <Event type="Stop" time="1428" duration="0" name="2_TSWStart" direction="Both" />
+    <Event type="Stop" time="1431" duration="0" name="4_EWWEnd" direction="Both" />
+    <Event type="Stop" time="1550" duration="0" name="2_TSWEnd" direction="Both" />
+    <Event type="Stop" time="1554" duration="0" name="2_TEQWStart" direction="Both" />
+    <Event type="Stop" time="1669" duration="0" name="2_TEQWEnd" direction="Both" />
+    <Event type="Stop" time="1674" duration="0" name="2_ISWStart" direction="Both" />
+    <Event type="Stop" time="1815" duration="0" name="2_ISWEnd" direction="Both" />
+    <Event type="Stop" time="1821" duration="0" name="2_HUWStart" direction="Both" />
+    <Event type="Stop" time="1955" duration="0" name="2_HUWEnd" direction="Both" />
+    <Event type="Stop" time="1963" duration="0" name="2_BZWStart" direction="Both" />
+    <Event type="Stop" time="2090" duration="0" name="2_BZWEnd" direction="Both" />
+    <Event type="Stop" time="2097" duration="0" name="4_FFWStart" direction="Both" />
+    <Event type="Stop" time="2404" duration="0" name="4_FFWEnd" direction="Both" />
+    <Event type="Stop" time="2413" duration="0" name="0_FFWStart" direction="Both" />
+    <Event type="Stop" time="2514" duration="0" name="0_FFWEnd" direction="Both" />
+    <Event type="Stop" time="2519" duration="0" name="0_SVWStart" direction="Both" />
+    <Event type="Stop" time="2628" duration="0" name="0_SVWEnd" direction="Both" />
+    <Event type="Stop" time="2635" duration="0" name="0_TOWStart" direction="Both" />
+    <Event type="Stop" time="2729" duration="0" name="0_TOWEnd" direction="Both" />
+    <Event type="Stop" time="2735" duration="0" name="1_FFWStart" direction="Both" />
+    <Event type="Stop" time="2863" duration="0" name="1_FFWEnd" direction="Both" />
+    <Event type="Stop" time="2870" duration="0" name="1_SVWStart" direction="Both" />
+    <Event type="Stop" time="3007" duration="0" name="1_SVWEnd" direction="Both" />
+    <Event type="Stop" time="3015" duration="0" name="1_TOWStart" direction="Both" />
+    <Event type="Stop" time="3134" duration="0" name="1_TOWEnd" direction="Both" />
+    <Event type="Stop" time="3142" duration="0" name="2_EWWStart" direction="Both" />
+    <Event type="Stop" time="3288" duration="0" name="2_EWWEnd" direction="Both" />
+    <Event type="Stop" time="3298" duration="0" name="2_FAWStart" direction="Both" />
+    <Event type="Stop" time="3436" duration="0" name="2_FAWEnd" direction="Both" />
+    <Event type="Stop" time="3443" duration="0" name="3_FFWStart" direction="Both" />
+    <Event type="Stop" time="3622" duration="0" name="3_FFWEnd" direction="Both" />
+    <Event type="Stop" time="3631" duration="0" name="3_SVWStart" direction="Both" />
+    <Event type="Stop" time="3818" duration="0" name="3_SVWEnd" direction="Both" />
+    <Event type="Stop" time="3824" duration="0" name="3_TOWStart" direction="Both" />
+    <Event type="Stop" time="3995" duration="0" name="3_TOWEnd" direction="Both" />
+    <Track channel="1">
+      <Clips>
+        <Clip time="1" duration="13" clipStart="0" clipEnd="0.421">audio\domesticSD\crawlAudio\1_Beep.wav</Clip>
+        <Clip time="15" duration="40" clipStart="0" clipEnd="1.332">audio\domesticSD\crawlAudio\2_Beep.wav</Clip>
+        <Clip time="56" duration="68" clipStart="0" clipEnd="2.25">audio\domesticSD\crawlAudio\3_Beep.wav</Clip>
+        <Clip time="126" duration="95" clipStart="0" clipEnd="3.154">audio\domesticSD\crawlAudio\4_Beep.wav</Clip>
+        <Clip time="223" duration="295" clipStart="0" clipEnd="9.822">audio\domesticSD\crawlAudio\4_TOW.wav</Clip>
+        <Clip time="522" duration="317" clipStart="0" clipEnd="10.559">audio\domesticSD\crawlAudio\4_SVW.wav</Clip>
+        <Clip time="843" duration="289" clipStart="0" clipEnd="9.625">audio\domesticSD\crawlAudio\4_FAW.wav</Clip>
+        <Clip time="1137" duration="294" clipStart="0" clipEnd="9.802">audio\domesticSD\crawlAudio\4_EWW.wav</Clip>
+        <Clip time="1433" duration="116" clipStart="0" clipEnd="3.876">audio\domesticSD\crawlAudio\2_TSW.wav</Clip>
+        <Clip time="1554" duration="116" clipStart="0" clipEnd="3.874">audio\domesticSD\crawlAudio\2_TEQW.wav</Clip>
+        <Clip time="1674" duration="141" clipStart="0" clipEnd="4.685">audio\domesticSD\crawlAudio\2_ISW.wav</Clip>
+        <Clip time="1821" duration="134" clipStart="0" clipEnd="4.482">audio\domesticSD\crawlAudio\2_HUW.wav</Clip>
+        <Clip time="1963" duration="128" clipStart="0" clipEnd="4.273">audio\domesticSD\crawlAudio\2_BZW.wav</Clip>
+        <Clip time="2099" duration="305" clipStart="0" clipEnd="10.17">audio\domesticSD\crawlAudio\4_FFW.wav</Clip>
+        <Clip time="2413" duration="102" clipStart="0" clipEnd="3.384">audio\domesticSD\crawlAudio\0_FFW.wav</Clip>
+        <Clip time="2519" duration="109" clipStart="0" clipEnd="3.648">audio\domesticSD\crawlAudio\0_SVW.wav</Clip>
+        <Clip time="2635" duration="93" clipStart="0" clipEnd="3.096">audio\domesticSD\crawlAudio\0_TOW.wav</Clip>
+        <Clip time="2735" duration="127" clipStart="0" clipEnd="4.224">audio\domesticSD\crawlAudio\1_FFW.wav</Clip>
+        <Clip time="2870" duration="135" clipStart="0" clipEnd="4.488">audio\domesticSD\crawlAudio\1_SVW.wav</Clip>
+        <Clip time="3015" duration="119" clipStart="0" clipEnd="3.96">audio\domesticSD\crawlAudio\1_TOW.wav</Clip>
+        <Clip time="3142" duration="145" clipStart="0" clipEnd="4.848">audio\domesticSD\crawlAudio\2_EWW.wav</Clip>
+        <Clip time="3298" duration="137" clipStart="0" clipEnd="4.56">audio\domesticSD\crawlAudio\2_FAW.wav</Clip>
+        <Clip time="3443" duration="179" clipStart="0" clipEnd="5.952">audio\domesticSD\crawlAudio\3_FFW.wav</Clip>
+        <Clip time="3631" duration="187" clipStart="0" clipEnd="6.24">audio\domesticSD\crawlAudio\3_SVW.wav</Clip>
+        <Clip time="3824" duration="170" clipStart="0" clipEnd="5.664">audio\domesticSD\crawlAudio\3_TOW.wav</Clip>
+      </Clips>
+    </Track>
+  </Timeline>
+  <Timeline name="Looping" start="0" duration="0" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-02 11:07:21" />
+</SceneLayout>

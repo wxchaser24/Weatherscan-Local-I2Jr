@@ -18,7 +18,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="false" priority="10" displayOrder="29" duration="480" min="380" max="540" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="36hrAnimatedForecast2,36hrAnimatedForecast3,36hrAnimatedForecast4,Detailed36hrTextForecast2,Detailed36hrTextForecast3" />
+      <PlaylistProps active="true" priority="75" displayOrder="26" duration="1200" min="1200" max="1200" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="36hrAnimatedForecast2,36hrAnimatedForecast3,36hrAnimatedForecast4,Detailed36hrTextForecast2,Detailed36hrTextForecast3" />
     </Rule>
   </Ruleset>
 </Product>

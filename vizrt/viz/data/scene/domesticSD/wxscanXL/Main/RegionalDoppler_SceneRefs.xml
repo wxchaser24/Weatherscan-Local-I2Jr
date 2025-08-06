@@ -1,8 +1,8 @@
 <SceneRefs resolution="1" version="2.10.6" nextRef="3" hasErrors="false">
   <Metadata />
   <Refs>
-    <Ref name="CWMClient.1/1/1.1/1/1/1." key="{ref_0}" dataType="LocalMapView" subType="Topo" desc="Map" mapSize="578,271" />
-    <Ref name="ImageClip.1/1/1/1.1/1/1/1/1." key="{ref_0}" dataType="LocalImageSequence" subType="Radar" desc="Map" configurable="true" mapSize="578,271" />
+    <Ref name="CWMClient.1/1/1.1/1/1/1." key="{ref_0}" dataType="LocalMapView" subType="Topo" desc="Map" mapSize="578,433" />
+    <Ref name="ImageClip.1/1/1/1.1/1/1/1/1." key="{ref_0}" dataType="LocalImageSequence" subType="Radar" desc="Map" configurable="true" mapSize="578,433" />
     <Ref name="DataObject.1/2/5/1/2.1/2/5/1/2/1." key="{ref_0}" dataType="LocalImageSequenceStats" desc="Image Sequence Statistics" subType="Radar" />
     <Ref name="DataObject.1/1/1/1/5/3.1/1/1/1/5/3/1." key="{ref_1}" dataType="LocalLocationProps" template="1/1/1/1/4.RegularCityDesign" maxItems="-1" desc="Map Design (RegularCityDesign)" geoRefType="WPosition" configurable="true" />
     <Ref name="DesignAutoLayout.1/1/1/1.1/1/1/1/4." key="{ref_2}" dataType="LocalMapLayout" desc="Map Properties" configurable="true" linkedMap="CWMClient.1/1/1.1/1/1/1." />
@@ -97,5 +97,5 @@
     </StaticAsset>
   </StaticAssets>
   <DynamicAssets />
-  <Export version="7.0.0.19713" user="SYSTEM" host="I2ADMIN-9IFRV8Q" timestamp="2025-07-24 05:48:50" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-06 03:31:54" />
 </SceneRefs>

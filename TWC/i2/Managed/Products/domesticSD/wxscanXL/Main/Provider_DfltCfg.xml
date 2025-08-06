@@ -22,7 +22,7 @@
   </Ruleset>
   <ConfigDef name="default">
     <ConfigItems>
-      <ConfigItem key="ref_0" value="Mist Digital Cable" />
+      <ConfigItem key="ref_0" value="Comcast Digital Cable" />
     </ConfigItems>
     <ConfigRecords />
   </ConfigDef>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataGraphOutput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Map Design (RegularCityDesign)</Label>
+      <Path>Top/Map/GeoReferenceMap/GeoReferenceMap/Designs/MultiLocation_TextDesigns/RegularCityDesign</Path>
+      <FullPath>1/1/1/1/5/3/1</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_1}" fieldName="locCity" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locCountry" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locCounty" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locDaylightSavingsActive" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locGMTDiff" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locNameCaps" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locState" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextRight/Text/locName</Path>
+      <FullPath>1/1/1/1/5/3/1/1/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextUpperRight/Text/locName</Path>
+      <FullPath>1/1/1/1/5/3/1/2/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextLowerRight/Text/locName</Path>
+      <FullPath>1/1/1/1/5/3/1/3/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextLeft/Text/locName</Path>
+      <FullPath>1/1/1/1/5/3/1/4/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextUpperLeft/Text/locName</Path>
+      <FullPath>1/1/1/1/5/3/1/5/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextLowerLeft/Text/locName</Path>
+      <FullPath>1/1/1/1/5/3/1/6/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Image Sequence Statistics</Label>
+      <Path>Top/SCENE/LEGEND/LegendPrecip/COLOR_KEY/LEGEND</Path>
+      <FullPath>1/2/5/1/2/1</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_0}" fieldName="Key" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="firstImageDateText" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="firstImageTime" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="firstImageTimeText" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="iceDensity" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="icePresent" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageCount" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime01" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime02" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime03" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime04" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime05" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime06" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime07" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime08" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime09" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime10" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime11" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime12" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime13" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime14" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime15" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime16" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime17" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime18" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime19" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime20" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime21" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime22" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime23" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime24" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime25" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime26" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime27" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime28" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime29" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime30" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime31" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime32" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime33" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime34" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime35" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="imageTime36" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="lastImageDateText" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="lastImageTime" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="lastImageTimeText" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="loopValidTime" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="mixDensity" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="mixPresent" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="precipitationInfoAvailable" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="rainDensity" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="rainPresent" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="snowDensity" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="snowPresent" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="summerLegend" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="winterLegend" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataInRange</PluginName>
+      <Path>ValidTime/timeFrame</Path>
+      <FullPath>1/2/5/1/2/1/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="loopValidTime" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_0}" fieldName="#misc_2" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>ValidTime/timeFrame</Path>
+      <FullPath>1/2/5/1/2/1/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="#misc_2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+  </DataGraphNode>
+</DataGraphOutput>

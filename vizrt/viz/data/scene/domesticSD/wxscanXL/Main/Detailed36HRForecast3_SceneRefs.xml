@@ -1,9 +1,10 @@
-<SceneRefs resolution="1" version="2.10.6" nextRef="3" hasErrors="false">
+<SceneRefs resolution="1" version="2.10.6" nextRef="4" hasErrors="false">
   <Metadata />
   <Refs>
     <Ref name="DataObject.1/1/2.1/1/2/1." key="{ref_0}" dataType="LocalDaypartCompositeFcst" desc="DP1" configurable="true" />
     <Ref name="DataObject.1/1/2.1/1/2/2." key="{ref_1}" dataType="LocalDaypartCompositeFcst" desc="DP2" configurable="true" />
     <Ref name="DataObject.1/1/2.1/1/2/3." key="{ref_2}" dataType="LocalDaypartCompositeFcst" desc="DP2" configurable="true" />
+    <Ref name="SingleClipAudio.1.1/1." key="{ref_3}" dataType="LocalSingleClipAudio" desc="Detailed36HRForecast2" configurable="true" noLookupRequired="true" catalogRoot="audio" />
   </Refs>
   <StaticAssets>
     <StaticAsset path="image/domesticSD/project_specific/wxscanXL/templates/2-36.peak">
@@ -22,5 +23,5 @@
     </StaticAsset>
   </StaticAssets>
   <DynamicAssets />
-  <Export version="7.0.0.19713" user="SYSTEM" host="I2ADMIN-9IFRV8Q" timestamp="2025-07-28 05:37:56" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-06 05:08:03" />
 </SceneRefs>

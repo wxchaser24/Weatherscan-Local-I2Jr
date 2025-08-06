@@ -24,9 +24,9 @@
     </StaticAsset>
   </StaticAssets>
   <DynamicAssets>
-    <DynamicAsset path="image/domesticSD/project_specific/wxscanXL/assets/icons/">
+    <DynamicAsset path="image/domesticSD/project_specific/wxscanXL/assets/iconsCC/">
       <UsedBy>1/1/2/2/4</UsedBy>
     </DynamicAsset>
   </DynamicAssets>
-  <Export version="7.0.0.19713" user="SYSTEM" host="I2ADMIN-9IFRV8Q" timestamp="2025-07-18 16:27:18" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-06 11:55:01" />
 </SceneRefs>
