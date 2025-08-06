@@ -108,31 +108,5 @@
       </InputFields>
       <OutputFields />
     </DataGraphNode>
-    <DataGraphNode>
-      <PluginName>DataObject</PluginName>
-      <Label>design1</Label>
-      <Path>TopNode/Scroller/SrcGrp/design1</Path>
-      <FullPath>1/6/2/2</FullPath>
-      <InputFields />
-      <OutputFields>
-        <DataField fieldName="audioStyle" dataType="DataPool" />
-        <DataField fieldName="label" dataType="DataPool" />
-        <DataField fieldName="phenomena" dataType="DataPool" />
-        <DataField fieldName="phenomenaSignificance" dataType="DataPool" />
-        <DataField fieldName="priority" dataType="DataPool" />
-        <DataField fieldName="significance" dataType="DataPool" />
-        <DataField fieldName="text" dataType="DataPool" />
-        <DataField fieldName="visualStyle" dataType="DataPool" />
-      </OutputFields>
-    </DataGraphNode>
-    <DataGraphNode>
-      <PluginName>DataText</PluginName>
-      <Path>text</Path>
-      <FullPath>1/6/2/2/1</FullPath>
-      <InputFields>
-        <DataField fieldName="text" dataType="DataPool" />
-      </InputFields>
-      <OutputFields />
-    </DataGraphNode>
   </DataGraphNode>
 </DataGraphOutput>

@@ -1,4 +1,4 @@
-<SceneLayout version="1.2.18" type="viz" screenBoundingBox="0,0.81875,0.9986111,0.1604167" hasErrors="false">
+<SceneLayout version="1.2.18" type="viz" screenBoundingBox="0,0.81875,0.9986111,0.1583333" hasErrors="false">
   <Windows />
   <DesignAutoLayouts />
   <Scrollers>
@@ -102,5 +102,5 @@
     </Track>
   </Timeline>
   <Timeline name="Looping" start="0" duration="0" />
-  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-02 11:07:21" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-06 18:36:16" />
 </SceneLayout>
