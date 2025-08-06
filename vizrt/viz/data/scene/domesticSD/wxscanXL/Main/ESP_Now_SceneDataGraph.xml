@@ -217,7 +217,7 @@
       <Path>RIGHT_SIDE/oneLineWxPhrase</Path>
       <FullPath>1/1/2/2/3</FullPath>
       <InputFields>
-        <DataField key="{ref_0}" fieldName="wx" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="oneLineWxPhrase" dataType="DataPool" />
       </InputFields>
       <OutputFields />
     </DataGraphNode>
