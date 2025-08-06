@@ -1,0 +1,13 @@
+<Theme>
+  <Window id="11" repeat="false">
+    <DisplayBuckets>
+      <DisplayBucket>
+      </DisplayBucket>
+    </DisplayBuckets>
+    <DisplayIcons>
+      <DisplayIcon>
+      </DisplayIcon>
+    </DisplayIcons>
+    <ProdGroup>domesticSD\wxscanXL\BulletinCrawl</ProdGroup>
+  </Window>
+</Theme>

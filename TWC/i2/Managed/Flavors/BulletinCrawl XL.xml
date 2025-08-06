@@ -1,0 +1,38 @@
+<Flavor>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="contains" type="Boolean">
+            <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+            <Literal type="StringList">
+              <Value>LDL National Longform</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <Results />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <Results>
+        <Theme>domesticSD\BulletinCrawl XL</Theme>
+      </Results>
+    </Rule>
+  </Ruleset>
+</Flavor>

@@ -1,0 +1,24 @@
+<Product>
+  <ScenePath>domesticSD\wxscanXL\BulletinCrawl\BulletinCrawl</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="2" displayOrder="2" duration="2999970" min="180" max="2999970" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="BulletinCrawl_Universal" />
+    </Rule>
+  </Ruleset>
+</Product>

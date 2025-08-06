@@ -55,7 +55,7 @@
     </StaticAsset>
   </StaticAssets>
   <DynamicAssets>
-    <DynamicAsset path="image/domesticSD/project_specific/wxscanXL/assets/iconsCC/">
+    <DynamicAsset path="image/domesticSD/project_specific/wxscanXL/assets/icons/">
       <UsedBy>1/1/3/1/1/1</UsedBy>
       <UsedBy>1/1/3/1/2/1</UsedBy>
       <UsedBy>1/1/3/1/3/1</UsedBy>
@@ -66,5 +66,5 @@
       <UsedBy>1/1/3/2/4/1</UsedBy>
     </DynamicAsset>
   </DynamicAssets>
-  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-06 11:53:37" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-06 15:38:00" />
 </SceneRefs>
