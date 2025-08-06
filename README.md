@@ -6,7 +6,7 @@ Recreation of Weatherscan Local Made in Viz Artist 2.8
 > This Viz design **must** be run on an IntelliStar 2 Jr.
 
 
-#Important
+# Important
 
 - Make sure to add a Long Lat Value to all 3 PrimaryLatitudeLongitudes in MachineProductConfig. Since Regional Maps Can use a different Center Point if needed. Verify in RegionalDoppler_DftCFg and RegionalSat_DftCfg Etc to see which one its looking for. Local Dopplar uses the the 1st LongLat Value. 
 
