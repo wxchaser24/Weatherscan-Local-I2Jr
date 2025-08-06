@@ -20,7 +20,9 @@ Recreation of Weatherscan Local Made in Viz Artist 2.8
 - Golf 
 - Health
 
-#ScreenShots
+# Screenshots
+
+
 <img width="720" height="540" alt="vlcsnap-2025-08-06-09h42m01s613" src="https://github.com/user-attachments/assets/2f4181e9-7423-42c0-ad53-d39d6386b27f" />
 <img width="720" height="540" alt="vlcsnap-2025-08-06-09h41m52s271" src="https://github.com/user-attachments/assets/c47452ca-2f75-4153-9a24-6dedc39d802a" />
 <img width="720" height="540" alt="vlcsnap-2025-08-06-09h41m42s513" src="https://github.com/user-attachments/assets/daac49ff-2a23-4f02-ae8b-c936ab4b7dfb" />
