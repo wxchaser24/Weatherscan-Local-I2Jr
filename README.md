@@ -10,7 +10,7 @@ Recreation of Weatherscan Local Made in Viz Artist 2.8
 
 - Make sure to add a Long Lat Value to all 3 PrimaryLatitudeLongitudes in MachineProductConfig. Since Regional Maps Can use a different Center Point if needed. Verify in RegionalDoppler_DftCFg and RegionalSat_DftCfg Etc to see which one its looking for. Local Dopplar uses the the 1st LongLat Value. 
 
-- Customize the LocalRadarCity Values in MachineProductCfg to adjust with the map zoom. or Change the Map Zoom in DftCfg to your prefrence
+- Customize the LocalRadarCity Values in MachineProductCfg to fit correctly with the Local Radar map width. or Change the Map width in LocalRadar_DftCfg to your prefrence
 
 - Enter 8 locations for NearbyLocations in MachineProductCfg
 
