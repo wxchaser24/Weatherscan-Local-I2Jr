@@ -1,8 +1,8 @@
-<SceneLayout version="1.2.18" type="viz" screenBoundingBox="0,0.8270833,0.9986111,0.1083333" hasErrors="false">
+<SceneLayout version="1.2.18" type="viz" screenBoundingBox="0,0.81875,0.9986111,0.1583333" hasErrors="false">
   <Windows />
   <DesignAutoLayouts />
   <Scrollers>
-    <Scroller name="Scroller.Scroll.1/6.Scroller" type="LocalBulletinCrawl" mode="Multi" key="" linkedObject="linkedObject" />
+    <Scroller name="Scroller.Scroll.1/5.Scroller" type="LocalBulletinCrawl" mode="Multi" key="" linkedObject="linkedObject" />
   </Scrollers>
   <Audio />
   <PlaylistScrollers />
@@ -16,11 +16,10 @@
   <PausePointControllers />
   <Timeline name="Default" start="0" duration="25">
     <Event type="Stop" time="35" duration="0" name="Pause" direction="Both" />
-    <Animation path="1/2/1/1" />
-    <Animation path="1/4/3" />
-    <Animation path="1/4/4" />
-    <Animation path="1/6" />
-    <Animation path="1/6/2/1/1" />
+    <Animation path="1/1/1/1" />
+    <Animation path="1/3/3" />
+    <Animation path="1/3/4" />
+    <Animation path="1/5" />
   </Timeline>
   <Timeline name="Audio" start="0" duration="3996">
     <Event type="Stop" time="2" duration="0" name="1_BeepStart" direction="Both" />
@@ -104,5 +103,5 @@
     </Track>
   </Timeline>
   <Timeline name="Looping" start="0" duration="0" />
-  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-10 03:37:33" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-10 13:05:56" />
 </SceneLayout>

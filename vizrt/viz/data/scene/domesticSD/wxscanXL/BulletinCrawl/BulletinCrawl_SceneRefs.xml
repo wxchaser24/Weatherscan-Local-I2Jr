@@ -1,34 +1,32 @@
 <SceneRefs resolution="1" version="2.10.6" nextRef="1" hasErrors="false">
   <Metadata />
   <Refs>
-    <Ref name="DataTable.LocalBulletinTable.1/2/1.design1" key="" dataType="LocalBulletinCrawl" template="1/6.design1" maxItems="-1" desc="design1" />
+    <Ref name="DataTable.LocalBulletinTable.1/1/1.design1" key="" dataType="LocalBulletinCrawl" template="1/5.design1" maxItems="-1" desc="design1" />
   </Refs>
   <StaticAssets>
-    <StaticAsset path="image/vlcsnap-2025-08-01-02h50m08s857.peak">
-      <UsedBy>1/1</UsedBy>
-    </StaticAsset>
     <StaticAsset path="font/domesticSD/HelveticaNeue-BoldCond.peak">
-      <UsedBy>1/2/1/1</UsedBy>
-      <UsedBy>1/6/2/1/1</UsedBy>
+      <UsedBy>1/1/1/1</UsedBy>
+      <UsedBy>1/5/2/1/1</UsedBy>
+      <UsedBy>1/5/2/2/1</UsedBy>
     </StaticAsset>
     <StaticAsset path="font/domesticSD/Interstate/Interstate-Bold-Regular.peak">
-      <UsedBy>1/3/1</UsedBy>
-      <UsedBy>1/3/2</UsedBy>
+      <UsedBy>1/2/1</UsedBy>
+      <UsedBy>1/2/2</UsedBy>
     </StaticAsset>
     <StaticAsset path="image/domesticSD/project_specific/wxscanXL/assets/alert_W.peak">
-      <UsedBy>1/4/1/1</UsedBy>
+      <UsedBy>1/3/1/1</UsedBy>
     </StaticAsset>
     <StaticAsset path="image/domesticSD/project_specific/wxscanXL/assets/alert_Y.peak">
-      <UsedBy>1/4/1/2</UsedBy>
+      <UsedBy>1/3/1/2</UsedBy>
     </StaticAsset>
     <StaticAsset path="image/domesticSD/project_specific/wxscanXL/assets/alert_A.peak">
-      <UsedBy>1/4/1/3</UsedBy>
+      <UsedBy>1/3/1/3</UsedBy>
     </StaticAsset>
     <StaticAsset path="font/domesticSD/AkziendzGrotesk/AkzidenzGroteskBE-Bold.peak">
-      <UsedBy>1/4/4</UsedBy>
+      <UsedBy>1/3/4</UsedBy>
     </StaticAsset>
     <StaticAsset path="image/domesticSD/logos/imageasdergvadsf.peak">
-      <UsedBy>1/5</UsedBy>
+      <UsedBy>1/4</UsedBy>
     </StaticAsset>
     <StaticAsset path="audio/domesticSD/crawlAudio/1_Beep.wav" />
     <StaticAsset path="audio/domesticSD/crawlAudio/2_Beep.wav" />
@@ -57,5 +55,5 @@
     <StaticAsset path="audio/domesticSD/crawlAudio/3_TOW.wav" />
   </StaticAssets>
   <DynamicAssets />
-  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-10 03:37:33" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-10 13:05:56" />
 </SceneRefs>

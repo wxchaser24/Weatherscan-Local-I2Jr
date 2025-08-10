@@ -5,7 +5,7 @@
       <PluginName>DataObject</PluginName>
       <Label>design1</Label>
       <Path>TopNode/ScrollingDesigns/design1</Path>
-      <FullPath>1/2/1</FullPath>
+      <FullPath>1/1/1</FullPath>
       <InputFields />
       <OutputFields>
         <DataField key="" fieldName="audioStyle" dataType="DataPool" />
@@ -21,7 +21,7 @@
     <DataGraphNode>
       <PluginName>DataText</PluginName>
       <Path>text</Path>
-      <FullPath>1/2/1/1</FullPath>
+      <FullPath>1/1/1/1</FullPath>
       <InputFields>
         <DataField key="" fieldName="text" dataType="DataPool" />
       </InputFields>
@@ -31,7 +31,7 @@
       <PluginName>DataObject</PluginName>
       <Label>linkedObject</Label>
       <Path>TopNode/linkedObject</Path>
-      <FullPath>1/4</FullPath>
+      <FullPath>1/3</FullPath>
       <InputFields />
       <OutputFields>
         <DataField key="" fieldName="audioStyle" dataType="DataPool" />
@@ -47,7 +47,7 @@
     <DataGraphNode>
       <PluginName>DataSelector</PluginName>
       <Path>selector</Path>
-      <FullPath>1/4/1</FullPath>
+      <FullPath>1/3/1</FullPath>
       <InputFields>
         <DataField key="" fieldName="visualStyle" dataType="DataPool" />
       </InputFields>
@@ -56,7 +56,7 @@
     <DataGraphNode>
       <PluginName>DataText</PluginName>
       <Path>crawl_text_Warning</Path>
-      <FullPath>1/4/4</FullPath>
+      <FullPath>1/3/4</FullPath>
       <InputFields>
         <DataField key="" fieldName="label" dataType="DataPool" />
       </InputFields>
@@ -65,20 +65,20 @@
     <DataGraphNode>
       <PluginName>DataParameter</PluginName>
       <Path>AudioStyles</Path>
-      <FullPath>1/4/5</FullPath>
+      <FullPath>1/3/5</FullPath>
       <InputFields>
         <DataField key="" fieldName="audioStyle" dataType="DataPool" />
       </InputFields>
       <OutputFields>
-        <DataField key="1/4/5" fieldName="DirectorTrigger" dataType="FunctionParameter" />
+        <DataField key="1/3/5" fieldName="DirectorTrigger" dataType="FunctionParameter" />
       </OutputFields>
     </DataGraphNode>
     <DataGraphNode>
       <PluginName>DirectorTrigger</PluginName>
       <Path>AudioStyles</Path>
-      <FullPath>1/4/5</FullPath>
+      <FullPath>1/3/5</FullPath>
       <InputFields>
-        <DataField key="1/4/5" fieldName="DirectorTrigger" dataType="FunctionParameter" />
+        <DataField key="1/3/5" fieldName="DirectorTrigger" dataType="FunctionParameter" />
       </InputFields>
       <OutputFields />
     </DataGraphNode>
@@ -86,7 +86,7 @@
       <PluginName>DataObject</PluginName>
       <Label>design1</Label>
       <Path>TopNode/Scroller/SrcGrp/design1</Path>
-      <FullPath>1/6/2/1</FullPath>
+      <FullPath>1/5/2/1</FullPath>
       <InputFields />
       <OutputFields>
         <DataField fieldName="audioStyle" dataType="DataPool" />
@@ -102,7 +102,33 @@
     <DataGraphNode>
       <PluginName>DataText</PluginName>
       <Path>text</Path>
-      <FullPath>1/6/2/1/1</FullPath>
+      <FullPath>1/5/2/1/1</FullPath>
+      <InputFields>
+        <DataField fieldName="text" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>design1</Label>
+      <Path>TopNode/Scroller/SrcGrp/design1</Path>
+      <FullPath>1/5/2/2</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField fieldName="audioStyle" dataType="DataPool" />
+        <DataField fieldName="label" dataType="DataPool" />
+        <DataField fieldName="phenomena" dataType="DataPool" />
+        <DataField fieldName="phenomenaSignificance" dataType="DataPool" />
+        <DataField fieldName="priority" dataType="DataPool" />
+        <DataField fieldName="significance" dataType="DataPool" />
+        <DataField fieldName="text" dataType="DataPool" />
+        <DataField fieldName="visualStyle" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>text</Path>
+      <FullPath>1/5/2/2/1</FullPath>
       <InputFields>
         <DataField fieldName="text" dataType="DataPool" />
       </InputFields>
