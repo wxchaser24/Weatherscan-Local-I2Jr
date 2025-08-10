@@ -8,7 +8,7 @@
     <Ref name="DataObject.1/1/3.1/1/3/5." key="{ref_4}" dataType="LocalDailyFcst" desc="datapoint_1" configurable="true" />
   </Refs>
   <StaticAssets>
-    <StaticAsset path="image/Screenshot_2025-08-03_053419.peak">
+    <StaticAsset path="image/domesticSD/project_specific/wxscanXL/assets/icons/Screenshot_2025-08-10_062751.peak">
       <UsedBy>1/1/1</UsedBy>
     </StaticAsset>
     <StaticAsset path="image/domesticSD/project_specific/wxscanXL/templates/ExtendedVizTemplate.peak">
@@ -56,5 +56,5 @@
       <UsedBy>1/1/3/5/3</UsedBy>
     </DynamicAsset>
   </DynamicAssets>
-  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-08 12:49:51" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-10 10:39:59" />
 </SceneRefs>
