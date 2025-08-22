@@ -11,7 +11,7 @@
     <StaticAsset path="image/domesticSD/maps/i2_georef_basemap_do_not_delete256x256.peak">
       <UsedBy>1/1/1</UsedBy>
     </StaticAsset>
-    <StaticAsset path="image/USRadarBorders.peak">
+    <StaticAsset path="image/domesticSD/project_specific/wxscanXL/assets/USRadarBorders.peak">
       <UsedBy>1/1/1/1/1</UsedBy>
     </StaticAsset>
     <StaticAsset path="image/domesticSD/common/interstate_clean_sign.peak">
@@ -100,5 +100,5 @@
     </StaticAsset>
   </StaticAssets>
   <DynamicAssets />
-  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-21 21:45:47" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-22 00:44:24" />
 </SceneRefs>
