@@ -22,7 +22,7 @@
   </Ruleset>
   <ConfigDef name="default">
     <ConfigItems>
-      <ConfigItem key="ref_0" value="{PrimaryLatitudeLongitude}-350" />
+      <ConfigItem key="ref_0" value="{PrimaryLatitudeLongitude}-480" />
       <ConfigItem key="ref_1_0" value="{LocalRadarCity1}" />
       <ConfigItem key="ref_1_1" value="{LocalRadarCity2}" />
       <ConfigItem key="ref_1_2" value="{LocalRadarCity3}" />
