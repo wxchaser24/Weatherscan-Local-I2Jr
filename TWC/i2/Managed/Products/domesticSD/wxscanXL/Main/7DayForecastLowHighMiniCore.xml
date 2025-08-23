@@ -18,7 +18,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="true" priority="10" displayOrder="45" duration="300" min="150" max="320" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" />
+      <PlaylistProps active="true" priority="10" displayOrder="45" duration="360" min="150" max="320" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" />
     </Rule>
     <Rule>
       <Code>
@@ -45,7 +45,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="true" priority="10" displayOrder="45" duration="300" min="150" max="320" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="7DayForecastHigh" />
+      <PlaylistProps active="true" priority="10" displayOrder="45" duration="360" min="150" max="320" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="7DayForecastHigh" />
     </Rule>
     <Rule>
       <Code>
@@ -80,7 +80,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="true" priority="10" displayOrder="45" duration="300" min="150" max="320" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="7DayForecastHigh" />
+      <PlaylistProps active="true" priority="10" displayOrder="45" duration="360" min="150" max="320" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="7DayForecastHigh" />
     </Rule>
     <Rule>
       <Code>
@@ -93,7 +93,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="true" priority="10" displayOrder="45" duration="300" min="150" max="320" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="7DayForecastHigh" />
+      <PlaylistProps active="true" priority="10" displayOrder="45" duration="360" min="150" max="320" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="7DayForecastHigh" />
     </Rule>
     <Rule>
       <Code>
@@ -108,7 +108,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="true" priority="10" displayOrder="45" duration="300" min="150" max="320" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="7DayForecastHigh" />
+      <PlaylistProps active="true" priority="10" displayOrder="45" duration="360" min="150" max="320" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="7DayForecastHigh" />
     </Rule>
   </Ruleset>
 </Product>

@@ -31,7 +31,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="true" priority="75" displayOrder="42" duration="900" min="450" max="900" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" />
+      <PlaylistProps active="true" priority="75" displayOrder="42" duration="990" min="450" max="990" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" />
     </Rule>
   </Ruleset>
 </Product>
