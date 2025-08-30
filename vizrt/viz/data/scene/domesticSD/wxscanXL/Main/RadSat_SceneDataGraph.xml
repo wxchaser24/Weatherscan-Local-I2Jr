@@ -5,7 +5,7 @@
       <PluginName>DataObject</PluginName>
       <Label>Map Design (RegularCityDesign)</Label>
       <Path>Top/Map/GeoReferenceMap/GeoReferenceMap/Designs/MultiLocation_TextDesigns/RegularCityDesign</Path>
-      <FullPath>1/1/1/1/7/3/1</FullPath>
+      <FullPath>1/1/1/1/6/3/1</FullPath>
       <InputFields />
       <OutputFields>
         <DataField key="{ref_1}" fieldName="locCity" dataType="DataPool" />
@@ -26,7 +26,25 @@
     <DataGraphNode>
       <PluginName>DataText</PluginName>
       <Path>TextRight/Text/locName</Path>
-      <FullPath>1/1/1/1/7/3/1/1/1/1</FullPath>
+      <FullPath>1/1/1/1/6/3/1/1/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextUpperRight/Text/locName</Path>
+      <FullPath>1/1/1/1/6/3/1/2/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextLowerRight/Text/locName</Path>
+      <FullPath>1/1/1/1/6/3/1/3/1/1</FullPath>
       <InputFields>
         <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
       </InputFields>
@@ -35,7 +53,25 @@
     <DataGraphNode>
       <PluginName>DataText</PluginName>
       <Path>TextLeft/Text/locName</Path>
-      <FullPath>1/1/1/1/7/3/1/2/1/1</FullPath>
+      <FullPath>1/1/1/1/6/3/1/4/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextUpperLeft/Text/locName</Path>
+      <FullPath>1/1/1/1/6/3/1/5/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextLowerLeft/Text/locName</Path>
+      <FullPath>1/1/1/1/6/3/1/6/1/1</FullPath>
       <InputFields>
         <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
       </InputFields>
