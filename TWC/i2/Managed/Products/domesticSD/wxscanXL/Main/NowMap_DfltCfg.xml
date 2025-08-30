@@ -1,0 +1,44 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_0" value="{PrimaryLatitudeLongitude_1}-695" />
+      <ConfigItem key="ref_5_0" value="{MapCity1}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5_1" value="{MapCity2}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5_2" value="{MapCity3}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5_3" value="{MapCity4}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5_4" value="{MapCity5}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5_5" value="{MapCity7}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5_6" value="{MapCity8}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5_7" value="{MapCity6}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_6" value="LocalMapLayout_e0bcde4f_422a_45c7_aa91_615508a68db8" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalMapLayout_e0bcde4f_422a_45c7_aa91_615508a68db8">
+        <LocalMapLayout>
+          <maxLabels>15</maxLabels>
+        </LocalMapLayout>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef>
+</Config>

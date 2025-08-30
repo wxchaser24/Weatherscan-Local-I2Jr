@@ -1,0 +1,48 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+      <Ref name="DataSourceI2_LocalDailyFcst_1" dataType="LocalDailyFcst" key="{MapCity1}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <Ref name="DataSourceI2_LocalDailyFcst_2" dataType="LocalDailyFcst" key="{MapCity2}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <Ref name="DataSourceI2_LocalDailyFcst_3" dataType="LocalDailyFcst" key="{MapCity3}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <Ref name="DataSourceI2_LocalDailyFcst_4" dataType="LocalDailyFcst" key="{MapCity4}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+   <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_0" value="{PrimaryLatitudeLongitude_1}-695" />
+      <ConfigItem key="ref_7_0" value="{MapCity1}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_7_1" value="{MapCity2}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_7_2" value="{MapCity3}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_7_3" value="{MapCity7}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_7_4" value="{MapCity8}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_7_5" value="{MapCity4}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_7_6" value="{MapCity5}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_7_7" value="{MapCity6}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_6" value="LocalMapLayout_e27ff99e_80b5_4a81_8380_5c48cdfb455d" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalMapLayout_e27ff99e_80b5_4a81_8380_5c48cdfb455d">
+        <LocalMapLayout>
+          <maxLabels>14</maxLabels>
+        </LocalMapLayout>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef> 
+</Config>

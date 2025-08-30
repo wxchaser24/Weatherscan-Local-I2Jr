@@ -1,0 +1,648 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="if" type="Boolean">
+            <Function name="and" type="Boolean">
+              <Function name="or" type="Boolean">
+                <Function name="or" type="Boolean">
+                  <Function name="or" type="Boolean">
+                    <Function name="or" type="Boolean">
+                      <Function name="or" type="Boolean">
+                        <Function name="or" type="Boolean">
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>0</Value>
+                            </Literal>
+                          </Function>
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>1</Value>
+                            </Literal>
+                          </Function>
+                        </Function>
+                        <Function name="equal" type="Boolean">
+                          <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                          <Literal type="Number">
+                            <Value>2</Value>
+                          </Literal>
+                        </Function>
+                      </Function>
+                      <Function name="equal" type="Boolean">
+                        <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                        <Literal type="Number">
+                          <Value>3</Value>
+                        </Literal>
+                      </Function>
+                    </Function>
+                    <Function name="equal" type="Boolean">
+                      <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                      <Literal type="Number">
+                        <Value>4</Value>
+                      </Literal>
+                    </Function>
+                  </Function>
+                  <Function name="equal" type="Boolean">
+                    <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                    <Literal type="Number">
+                      <Value>5</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+                <Function name="equal" type="Boolean">
+                  <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                  <Literal type="Number">
+                    <Value>6</Value>
+                  </Literal>
+                </Function>
+              </Function>
+              <Function name="and" type="Boolean">
+                <Function name="timeOnOrAfter" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>00:00:00</Value>
+                  </Literal>
+                </Function>
+                <Function name="timeBefore" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>03:00:00</Value>
+                  </Literal>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="ProductConfig_1" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="if" type="Boolean">
+            <Function name="and" type="Boolean">
+              <Function name="or" type="Boolean">
+                <Function name="or" type="Boolean">
+                  <Function name="or" type="Boolean">
+                    <Function name="or" type="Boolean">
+                      <Function name="or" type="Boolean">
+                        <Function name="or" type="Boolean">
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>0</Value>
+                            </Literal>
+                          </Function>
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>1</Value>
+                            </Literal>
+                          </Function>
+                        </Function>
+                        <Function name="equal" type="Boolean">
+                          <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                          <Literal type="Number">
+                            <Value>2</Value>
+                          </Literal>
+                        </Function>
+                      </Function>
+                      <Function name="equal" type="Boolean">
+                        <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                        <Literal type="Number">
+                          <Value>3</Value>
+                        </Literal>
+                      </Function>
+                    </Function>
+                    <Function name="equal" type="Boolean">
+                      <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                      <Literal type="Number">
+                        <Value>4</Value>
+                      </Literal>
+                    </Function>
+                  </Function>
+                  <Function name="equal" type="Boolean">
+                    <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                    <Literal type="Number">
+                      <Value>5</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+                <Function name="equal" type="Boolean">
+                  <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                  <Literal type="Number">
+                    <Value>6</Value>
+                  </Literal>
+                </Function>
+              </Function>
+              <Function name="and" type="Boolean">
+                <Function name="timeOnOrAfter" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>03:00:00</Value>
+                  </Literal>
+                </Function>
+                <Function name="timeBefore" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>09:00:00</Value>
+                  </Literal>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="ProductConfig_2" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="if" type="Boolean">
+            <Function name="and" type="Boolean">
+              <Function name="or" type="Boolean">
+                <Function name="or" type="Boolean">
+                  <Function name="or" type="Boolean">
+                    <Function name="or" type="Boolean">
+                      <Function name="or" type="Boolean">
+                        <Function name="or" type="Boolean">
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>0</Value>
+                            </Literal>
+                          </Function>
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>1</Value>
+                            </Literal>
+                          </Function>
+                        </Function>
+                        <Function name="equal" type="Boolean">
+                          <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                          <Literal type="Number">
+                            <Value>2</Value>
+                          </Literal>
+                        </Function>
+                      </Function>
+                      <Function name="equal" type="Boolean">
+                        <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                        <Literal type="Number">
+                          <Value>3</Value>
+                        </Literal>
+                      </Function>
+                    </Function>
+                    <Function name="equal" type="Boolean">
+                      <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                      <Literal type="Number">
+                        <Value>4</Value>
+                      </Literal>
+                    </Function>
+                  </Function>
+                  <Function name="equal" type="Boolean">
+                    <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                    <Literal type="Number">
+                      <Value>5</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+                <Function name="equal" type="Boolean">
+                  <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                  <Literal type="Number">
+                    <Value>6</Value>
+                  </Literal>
+                </Function>
+              </Function>
+              <Function name="and" type="Boolean">
+                <Function name="timeOnOrAfter" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>09:00:00</Value>
+                  </Literal>
+                </Function>
+                <Function name="timeBefore" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>12:00:00</Value>
+                  </Literal>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="ProductConfig_3" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="if" type="Boolean">
+            <Function name="and" type="Boolean">
+              <Function name="or" type="Boolean">
+                <Function name="or" type="Boolean">
+                  <Function name="or" type="Boolean">
+                    <Function name="or" type="Boolean">
+                      <Function name="or" type="Boolean">
+                        <Function name="or" type="Boolean">
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>0</Value>
+                            </Literal>
+                          </Function>
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>1</Value>
+                            </Literal>
+                          </Function>
+                        </Function>
+                        <Function name="equal" type="Boolean">
+                          <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                          <Literal type="Number">
+                            <Value>2</Value>
+                          </Literal>
+                        </Function>
+                      </Function>
+                      <Function name="equal" type="Boolean">
+                        <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                        <Literal type="Number">
+                          <Value>3</Value>
+                        </Literal>
+                      </Function>
+                    </Function>
+                    <Function name="equal" type="Boolean">
+                      <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                      <Literal type="Number">
+                        <Value>4</Value>
+                      </Literal>
+                    </Function>
+                  </Function>
+                  <Function name="equal" type="Boolean">
+                    <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                    <Literal type="Number">
+                      <Value>5</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+                <Function name="equal" type="Boolean">
+                  <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                  <Literal type="Number">
+                    <Value>6</Value>
+                  </Literal>
+                </Function>
+              </Function>
+              <Function name="and" type="Boolean">
+                <Function name="timeOnOrAfter" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>12:00:00</Value>
+                  </Literal>
+                </Function>
+                <Function name="timeBefore" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>14:00:00</Value>
+                  </Literal>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="ProductConfig_4" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="if" type="Boolean">
+            <Function name="and" type="Boolean">
+              <Function name="or" type="Boolean">
+                <Function name="or" type="Boolean">
+                  <Function name="or" type="Boolean">
+                    <Function name="or" type="Boolean">
+                      <Function name="or" type="Boolean">
+                        <Function name="or" type="Boolean">
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>0</Value>
+                            </Literal>
+                          </Function>
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>1</Value>
+                            </Literal>
+                          </Function>
+                        </Function>
+                        <Function name="equal" type="Boolean">
+                          <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                          <Literal type="Number">
+                            <Value>2</Value>
+                          </Literal>
+                        </Function>
+                      </Function>
+                      <Function name="equal" type="Boolean">
+                        <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                        <Literal type="Number">
+                          <Value>3</Value>
+                        </Literal>
+                      </Function>
+                    </Function>
+                    <Function name="equal" type="Boolean">
+                      <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                      <Literal type="Number">
+                        <Value>4</Value>
+                      </Literal>
+                    </Function>
+                  </Function>
+                  <Function name="equal" type="Boolean">
+                    <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                    <Literal type="Number">
+                      <Value>5</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+                <Function name="equal" type="Boolean">
+                  <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                  <Literal type="Number">
+                    <Value>6</Value>
+                  </Literal>
+                </Function>
+              </Function>
+              <Function name="and" type="Boolean">
+                <Function name="timeOnOrAfter" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>14:00:00</Value>
+                  </Literal>
+                </Function>
+                <Function name="timeBefore" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>17:00:00</Value>
+                  </Literal>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="ProductConfig_5" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="if" type="Boolean">
+            <Function name="and" type="Boolean">
+              <Function name="or" type="Boolean">
+                <Function name="or" type="Boolean">
+                  <Function name="or" type="Boolean">
+                    <Function name="or" type="Boolean">
+                      <Function name="or" type="Boolean">
+                        <Function name="or" type="Boolean">
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>0</Value>
+                            </Literal>
+                          </Function>
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>1</Value>
+                            </Literal>
+                          </Function>
+                        </Function>
+                        <Function name="equal" type="Boolean">
+                          <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                          <Literal type="Number">
+                            <Value>2</Value>
+                          </Literal>
+                        </Function>
+                      </Function>
+                      <Function name="equal" type="Boolean">
+                        <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                        <Literal type="Number">
+                          <Value>3</Value>
+                        </Literal>
+                      </Function>
+                    </Function>
+                    <Function name="equal" type="Boolean">
+                      <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                      <Literal type="Number">
+                        <Value>4</Value>
+                      </Literal>
+                    </Function>
+                  </Function>
+                  <Function name="equal" type="Boolean">
+                    <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                    <Literal type="Number">
+                      <Value>5</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+                <Function name="equal" type="Boolean">
+                  <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                  <Literal type="Number">
+                    <Value>6</Value>
+                  </Literal>
+                </Function>
+              </Function>
+              <Function name="and" type="Boolean">
+                <Function name="timeOnOrAfter" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>17:00:00</Value>
+                  </Literal>
+                </Function>
+                <Function name="timeBefore" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>21:00:00</Value>
+                  </Literal>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="ProductConfig_6" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="if" type="Boolean">
+            <Function name="and" type="Boolean">
+              <Function name="or" type="Boolean">
+                <Function name="or" type="Boolean">
+                  <Function name="or" type="Boolean">
+                    <Function name="or" type="Boolean">
+                      <Function name="or" type="Boolean">
+                        <Function name="or" type="Boolean">
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>0</Value>
+                            </Literal>
+                          </Function>
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>1</Value>
+                            </Literal>
+                          </Function>
+                        </Function>
+                        <Function name="equal" type="Boolean">
+                          <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                          <Literal type="Number">
+                            <Value>2</Value>
+                          </Literal>
+                        </Function>
+                      </Function>
+                      <Function name="equal" type="Boolean">
+                        <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                        <Literal type="Number">
+                          <Value>3</Value>
+                        </Literal>
+                      </Function>
+                    </Function>
+                    <Function name="equal" type="Boolean">
+                      <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                      <Literal type="Number">
+                        <Value>4</Value>
+                      </Literal>
+                    </Function>
+                  </Function>
+                  <Function name="equal" type="Boolean">
+                    <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                    <Literal type="Number">
+                      <Value>5</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+                <Function name="equal" type="Boolean">
+                  <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                  <Literal type="Number">
+                    <Value>6</Value>
+                  </Literal>
+                </Function>
+              </Function>
+              <Function name="and" type="Boolean">
+                <Function name="timeOnOrAfter" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>21:00:00</Value>
+                  </Literal>
+                </Function>
+                <Function name="timeBefore" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>23:59:59</Value>
+                  </Literal>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="ProductConfig_7" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="ProductConfig_1">
+    <ConfigItems>
+      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />  	  
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+  <ConfigDef name="ProductConfig_2">
+    <ConfigItems>
+      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_8pm}-FcstIconMapping-WxManMapping" />  	  
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+  <ConfigDef name="ProductConfig_3">
+    <ConfigItems>
+      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_8pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_12am}-FcstIconMapping-WxManMapping" /> 	  
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+  <ConfigDef name="ProductConfig_4">
+    <ConfigItems>
+      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_8pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_12am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />    	  
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+  <ConfigDef name="ProductConfig_5">
+    <ConfigItems>
+      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_8pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_12am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />    	  
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+  <ConfigDef name="ProductConfig_6">
+    <ConfigItems>
+      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_12am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />  	    	  
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+  <ConfigDef name="ProductConfig_7">
+    <ConfigItems>
+      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />  
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_36" value="{PrimaryLocation}-{HourPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_29" value="{PrimaryLocation}-{HourPlusFour}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_35" value="{PrimaryLocation}-{HourPlusSeven}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_34" value="{PrimaryLocation}-{HourPlusTen}-FcstIconMapping-WxManMapping" />	  
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+</Config>
