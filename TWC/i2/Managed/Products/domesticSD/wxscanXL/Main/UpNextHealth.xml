@@ -16,7 +16,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="true" priority="9" displayOrder="78" duration="250" min="210" max="410" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" />
+      <PlaylistProps active="false" priority="9" displayOrder="78" duration="250" min="210" max="410" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" />
     </Rule>
     <Rule>
       <Code>

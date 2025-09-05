@@ -17,7 +17,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="true" priority="6" displayBucket="" displayIcon="" displayOrder="54" duration="730" min="270" max="355" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" onlyShowInTransitionOnce="false" />
+      <PlaylistProps active="false" priority="6" displayBucket="" displayIcon="" displayOrder="54" duration="730" min="270" max="355" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" onlyShowInTransitionOnce="false" />
     </Rule>
     <Rule>
       <Code>
@@ -61,7 +61,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="true" priority="10" displayBucket="" displayIcon="" displayOrder="54" duration="600" min="270" max="600" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" onlyShowInTransitionOnce="false" />
+      <PlaylistProps active="false" priority="10" displayBucket="" displayIcon="" displayOrder="54" duration="600" min="270" max="600" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" onlyShowInTransitionOnce="false" />
     </Rule>
   </Ruleset>
 </Product>

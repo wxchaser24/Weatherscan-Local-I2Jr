@@ -1,0 +1,34 @@
+<SceneRefs resolution="1" version="2.10.6" nextRef="8" hasErrors="false">
+  <Metadata />
+  <Refs>
+    <Ref name="DataObject.1/1/3.1/1/3/1." key="{ref_5}" dataType="LocalAirQuality" desc="Loc1" configurable="true" />
+    <Ref name="DataObject.1/1/3.1/1/3/2." key="{ref_7}" dataType="LocalAirQuality" desc="Loc2" configurable="true" />
+    <Ref name="DataObject.1/1/3.1/1/3/3." key="{ref_6}" dataType="LocalAirQuality" desc="Loc3" configurable="true" />
+  </Refs>
+  <StaticAssets>
+    <StaticAsset path="image/domesticSD/project_specific/wxscanXL/examples/image_(26).peak">
+      <UsedBy>1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domesticSD/project_specific/wxscanXL/templates/AQ.peak">
+      <UsedBy>1/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domesticSD/Berthold-Akzidenz-Grotesk-BE-MdEx.peak">
+      <UsedBy>1/1/3/1/1</UsedBy>
+      <UsedBy>1/1/3/1/4</UsedBy>
+      <UsedBy>1/1/3/2/1</UsedBy>
+      <UsedBy>1/1/3/3/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domesticSD/project_specific/wxscanXL/assets/AQBAR.peak">
+      <UsedBy>1/1/3/1/2</UsedBy>
+      <UsedBy>1/1/3/2/2</UsedBy>
+      <UsedBy>1/1/3/3/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domesticSD/AkziendzGrotesk/Berthold-Akzidenz-Grotesk-Condensed.peak">
+      <UsedBy>1/1/3/1/3</UsedBy>
+      <UsedBy>1/1/3/2/3</UsedBy>
+      <UsedBy>1/1/3/3/3</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-09-02 05:56:51" />
+</SceneRefs>

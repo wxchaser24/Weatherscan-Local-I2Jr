@@ -1,4 +1,4 @@
-<SceneRefs resolution="1" version="2.10.6" nextRef="7" hasErrors="false">
+<SceneRefs resolution="1" version="2.10.6" nextRef="8" hasErrors="false">
   <Metadata />
   <Refs>
     <Ref name="CWMClient.1/1/1.1/1/1/1." key="{ref_0}" dataType="LocalMapView" subType="Topo" desc="Map" configurable="true" mapSize="578,433" />
@@ -10,9 +10,6 @@
     </StaticAsset>
     <StaticAsset path="image/domesticSD/project_specific/wxscanXL/assets/USRegionalSuper.peak">
       <UsedBy>1/1/1/1/1</UsedBy>
-    </StaticAsset>
-    <StaticAsset path="image/Screenshot_2025-08-27_153211.peak">
-      <UsedBy>1/1/1/1/2</UsedBy>
     </StaticAsset>
     <StaticAsset path="image/domesticSD/common/interstate_clean_sign.peak">
       <UsedBy>1/1/1/1/5/1/1</UsedBy>
@@ -71,5 +68,5 @@
       <UsedBy>1/1/1/1/6/3/1/1/1/2</UsedBy>
     </DynamicAsset>
   </DynamicAssets>
-  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-30 05:57:25" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-09-03 00:58:09" />
 </SceneRefs>

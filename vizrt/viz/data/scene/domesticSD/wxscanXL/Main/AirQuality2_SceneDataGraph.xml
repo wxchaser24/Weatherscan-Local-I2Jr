@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataGraphOutput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Loc1</Label>
+      <Path>topNode/UV_INDEX/AirQuality/Data</Path>
+      <FullPath>1/1/3/1</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_5}" fieldName="actionDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="actionDayText" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="category" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="categoryIdx" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="date" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="index" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="pollutant" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="processTime" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Location</Path>
+      <FullPath>1/1/3/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataScale</PluginName>
+      <Path>Bar</Path>
+      <FullPath>1/1/3/1/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="index" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/3/1/2" fieldName="Scaling" dataType="Scaling" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>index</Path>
+      <FullPath>1/1/3/1/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="index" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataParameter</PluginName>
+      <Path>Day</Path>
+      <FullPath>1/1/3/1/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="date" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/3/1/4" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DateTimeFormatter</PluginName>
+      <Path>Day</Path>
+      <FullPath>1/1/3/1/4</FullPath>
+      <InputFields>
+        <DataField key="1/1/3/1/4" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Day</Path>
+      <FullPath>1/1/3/1/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="date" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Loc2</Label>
+      <Path>topNode/UV_INDEX/AirQuality/Data</Path>
+      <FullPath>1/1/3/2</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_7}" fieldName="actionDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="actionDayText" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="category" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="categoryIdx" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="date" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="index" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="pollutant" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="processTime" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Location</Path>
+      <FullPath>1/1/3/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataScale</PluginName>
+      <Path>Bar</Path>
+      <FullPath>1/1/3/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="index" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/3/2/2" fieldName="Scaling" dataType="Scaling" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>index</Path>
+      <FullPath>1/1/3/2/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="index" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Loc3</Label>
+      <Path>topNode/UV_INDEX/AirQuality/Data</Path>
+      <FullPath>1/1/3/3</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_6}" fieldName="actionDay" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="actionDayText" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="category" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="categoryIdx" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="date" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="index" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="pollutant" dataType="DataPool" />
+        <DataField key="{ref_6}" fieldName="processTime" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Location</Path>
+      <FullPath>1/1/3/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_6}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataScale</PluginName>
+      <Path>Bar</Path>
+      <FullPath>1/1/3/3/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_6}" fieldName="index" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/3/3/2" fieldName="Scaling" dataType="Scaling" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>index</Path>
+      <FullPath>1/1/3/3/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_6}" fieldName="index" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+  </DataGraphNode>
+</DataGraphOutput>

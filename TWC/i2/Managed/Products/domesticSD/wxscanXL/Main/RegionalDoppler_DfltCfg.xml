@@ -22,7 +22,7 @@
   </Ruleset>
   <ConfigDef name="default">
     <ConfigItems>
-      <ConfigItem key="ref_0" value="{PrimaryLatitudeLongitude_1}-806" />
+      <ConfigItem key="ref_0" value="{PrimaryLatitudeLongitude_2}-800" />
       <ConfigItem key="ref_1_0" value="" />
       <ConfigItem key="ref_1_1" value="" />
       <ConfigItem key="ref_1_2" value="" />

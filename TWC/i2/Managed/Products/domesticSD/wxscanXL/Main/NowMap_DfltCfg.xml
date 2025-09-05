@@ -31,7 +31,7 @@
       <ConfigItem key="ref_5_5" value="{MapCity7}-ObsIconMapping-WxManMapping" />
       <ConfigItem key="ref_5_6" value="{MapCity8}-ObsIconMapping-WxManMapping" />
       <ConfigItem key="ref_5_7" value="{MapCity6}-ObsIconMapping-WxManMapping" />
-      <ConfigItem key="ref_6" value="LocalMapLayout_e0bcde4f_422a_45c7_aa91_615508a68db8" />
+      <ConfigItem key="ref_7" value="LocalMapLayout_e0bcde4f_422a_45c7_aa91_615508a68db8" />
     </ConfigItems>
     <ConfigRecords>
       <ConfigRecord key="LocalMapLayout_e0bcde4f_422a_45c7_aa91_615508a68db8">

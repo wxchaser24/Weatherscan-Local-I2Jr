@@ -16,7 +16,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="true" priority="3" displayOrder="36" duration="250" min="210" max="410" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" />
+      <PlaylistProps active="false" priority="3" displayOrder="36" duration="250" min="210" max="410" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" />
     </Rule>
     <Rule>
       <Code>
@@ -31,7 +31,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="true" priority="3" displayOrder="36" duration="250" min="210" max="410" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" />
+      <PlaylistProps active="false" priority="3" displayOrder="36" duration="250" min="210" max="410" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" />
     </Rule>
   </Ruleset>
 </Product>

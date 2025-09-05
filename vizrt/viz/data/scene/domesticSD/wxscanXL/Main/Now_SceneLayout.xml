@@ -16,6 +16,7 @@
   <PausePointControllers />
   <Timeline name="Default" start="0" duration="0">
     <Event type="Pause" time="0" duration="1" name="1" direction="Both" />
+    <Animation path="1" />
     <Animation path="1/1" />
     <Animation path="1/1/1" />
   </Timeline>
@@ -27,5 +28,5 @@
       </Clips>
     </Track>
   </Timeline>
-  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-08-06 15:36:30" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-09-02 18:58:23" />
 </SceneLayout>
