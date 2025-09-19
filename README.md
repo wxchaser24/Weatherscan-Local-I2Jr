@@ -19,7 +19,9 @@ Recreation of Weatherscan Local Made in Viz Artist 2.8
 
 - Enter 8 locations for NearbyLocations in MachineProductCfg
 
-- Their might be a longitude offset for Today,Tongiht,Tomorrow and Now Map in the scene itself on viz. SO adjust That according to your location. The Offset was there for my location. 
+- Their might be a longitude offset for Today,Tongiht,Tomorrow and Now Map in the scene itself on viz. SO adjust That according to your location. The Offset was there for my location.
+
+- XL BaseMap Scaling May have to be adjusted for your Area Especially if your not in the SE. i was able to perfect align the south East but for areas like The NE,MIdWest ,NW and SW the county lines and border lines becomes slighlty misaligned. This is due to XL map Not being CMR. This could be easily adjusted on viz to align to your coordinates perfectly.
 
 # Flavors
 
