@@ -14,6 +14,8 @@ Recreation of Weatherscan Local Made in Viz Artist 2.8
 
 - Enter 8 locations for NearbyLocations in MachineProductCfg
 
+- Their might be a longitude offset for Today,Tongiht,Tomorrow and Now Map in the scene itself on viz. SO adjust That according to your location. The Offset was there for my location. 
+
 # Flavors
 
 - Flavor: wxscanXL
@@ -23,9 +25,11 @@ Recreation of Weatherscan Local Made in Viz Artist 2.8
 # Products
 
 - Local Forecast
-- Mini-Core (extra city forecast)
-- Spanish Forecast
-- Golf 
 - Health
+
+# To Do
+
+- Import The rest of the worded XL Icons(Snow Varients)
+
 
 
