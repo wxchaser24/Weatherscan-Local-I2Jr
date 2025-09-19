@@ -1,3 +1,7 @@
+<img width="720" height="540" alt="vlcsnap-2025-09-18-23h10m18s024" src="https://github.com/user-attachments/assets/8db3171a-d9f0-4f15-97a1-f6574006a7de" />
+<img width="720" height="540" alt="vlcsnap-2025-09-18-23h09m47s124" src="https://github.com/user-attachments/assets/bd91e8d8-630b-4c81-818f-70eb30acf5d6" />
+<img width="720" height="540" alt="vlcsnap-2025-09-18-23h09m41s225" src="https://github.com/user-attachments/assets/dc73b773-9e8d-4847-b599-8a11e7c7c994" />
+<img width="1225" height="918" alt="Capture" src="https://github.com/user-attachments/assets/6236eb74-8ea9-4d31-812f-5bee43d834ab" />
 
 Recreation of Weatherscan Local Made in Viz Artist 2.8
 
