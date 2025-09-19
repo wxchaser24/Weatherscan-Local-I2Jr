@@ -9,7 +9,8 @@ Recreation of Weatherscan Local Made in Viz Artist 2.8
 
 >[!WARNING]
 > This Viz design **must** be run on an IntelliStar 2 Jr.
->Vizrt/i2 Experienced Preferred 
+
+>You need Vizrt/i2 Experience to properly configure this for your location.
 
 
 # Important
