@@ -32,7 +32,7 @@
           </Function>
         </Function>
       </Code>
-      <PlaylistProps active="true" priority="9" displayBucket="" displayIcon="" displayOrder="17" duration="300" min="300" max="300" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" onlyShowInTransitionOnce="false" />
+      <PlaylistProps active="true" priority="9" displayBucket="" displayIcon="" displayOrder="19" duration="300" min="300" max="300" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="" onlyShowInTransitionOnce="false" />
     </Rule>
   </Ruleset>
 </Product>
