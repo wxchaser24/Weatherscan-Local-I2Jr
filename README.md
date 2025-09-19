@@ -23,7 +23,7 @@ Recreation of Weatherscan Local Made in Viz Artist 2.8
 
 - Their might be a longitude offset in the GeoreferenceMap Containeer for Today,Tonight,Tomorrow and Now Map in the scene on viz. SO adjust That according to your location. The Offset was there for my location.
 
-- XL BaseMap Scaling May have to be adjusted for your Area Especially if your not in the SE. i was able to perfect align the south East but for areas like The NE,MidWest ,NW and SW the county lines and border lines becomes slightly misaligned. This is due to XL map Not being CMR instead were using the raw Tiff itself. This could be easily adjusted on viz to align to your coordinates perfectly.
+- XL BaseMap Scaling May have to be adjusted for your Area Especially if your not in the SE. i was able to perfect align the south East but for areas like The NE,MidWest ,NW and SW the county lines and border lines becomes slightly misaligned. This is due to XL map Not being CMR instead were using the raw Tiff itself. This could be easily adjusted on viz to align to your coordinates perfectly. Turn on the Border Lines that were previously used for the old maps as reference to align.
 
 # Flavors
 
