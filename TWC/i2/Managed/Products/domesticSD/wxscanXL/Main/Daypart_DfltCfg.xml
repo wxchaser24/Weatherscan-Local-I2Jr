@@ -575,73 +575,73 @@
   </Ruleset>
   <ConfigDef name="ProductConfig_1">
     <ConfigItems>
-      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />  	  
+      <ConfigItem key="ref_46" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_47" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_48" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_49" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />  	  
     </ConfigItems>
     <ConfigRecords />
   </ConfigDef>
   <ConfigDef name="ProductConfig_2">
     <ConfigItems>
-      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_8pm}-FcstIconMapping-WxManMapping" />  	  
+      <ConfigItem key="ref_46" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_47" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_48" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_49" value="{PrimaryLocation}-{First_8pm}-FcstIconMapping-WxManMapping" />  	  
     </ConfigItems>
     <ConfigRecords />
   </ConfigDef>
   <ConfigDef name="ProductConfig_3">
     <ConfigItems>
-      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_8pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_12am}-FcstIconMapping-WxManMapping" /> 	  
+      <ConfigItem key="ref_46" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_47" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_48" value="{PrimaryLocation}-{First_8pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_49" value="{PrimaryLocation}-{First_12am}-FcstIconMapping-WxManMapping" /> 	  
     </ConfigItems>
     <ConfigRecords />
   </ConfigDef>
   <ConfigDef name="ProductConfig_4">
     <ConfigItems>
-      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_8pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_12am}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />    	  
+      <ConfigItem key="ref_46" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_47" value="{PrimaryLocation}-{First_8pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_48" value="{PrimaryLocation}-{First_12am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_49" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />    	  
     </ConfigItems>
     <ConfigRecords />
   </ConfigDef>
   <ConfigDef name="ProductConfig_5">
     <ConfigItems>
-      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_8pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_12am}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />    	  
+      <ConfigItem key="ref_46" value="{PrimaryLocation}-{First_8pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_47" value="{PrimaryLocation}-{First_12am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_48" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_49" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />    	  
     </ConfigItems>
     <ConfigRecords />
   </ConfigDef>
   <ConfigDef name="ProductConfig_6">
     <ConfigItems>
-      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_12am}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />  	    	  
+      <ConfigItem key="ref_46" value="{PrimaryLocation}-{First_12am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_47" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_48" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_49" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />  	    	  
     </ConfigItems>
     <ConfigRecords />
   </ConfigDef>
   <ConfigDef name="ProductConfig_7">
     <ConfigItems>
-      <ConfigItem key="ref_36" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_29" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_35" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_34" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />  
+      <ConfigItem key="ref_46" value="{PrimaryLocation}-{First_6am}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_47" value="{PrimaryLocation}-{First_12pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_48" value="{PrimaryLocation}-{First_3pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_49" value="{PrimaryLocation}-{First_5pm}-FcstIconMapping-WxManMapping" />  
     </ConfigItems>
     <ConfigRecords />
   </ConfigDef>
   <ConfigDef name="default">
     <ConfigItems>
-      <ConfigItem key="ref_36" value="{PrimaryLocation}-{HourPlusOne}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_29" value="{PrimaryLocation}-{HourPlusFour}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_35" value="{PrimaryLocation}-{HourPlusSeven}-FcstIconMapping-WxManMapping" />
-      <ConfigItem key="ref_34" value="{PrimaryLocation}-{HourPlusTen}-FcstIconMapping-WxManMapping" />	  
+      <ConfigItem key="ref_46" value="{PrimaryLocation}-{HourPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_47" value="{PrimaryLocation}-{HourPlusFour}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_48" value="{PrimaryLocation}-{HourPlusSeven}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_49" value="{PrimaryLocation}-{HourPlusTen}-FcstIconMapping-WxManMapping" />	  
     </ConfigItems>
     <ConfigRecords />
   </ConfigDef>
