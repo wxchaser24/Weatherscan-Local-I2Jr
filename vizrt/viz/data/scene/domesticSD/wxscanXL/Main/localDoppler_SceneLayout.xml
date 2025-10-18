@@ -24,8 +24,8 @@
     <Animation path="1/1/1/1/6/1/2" />
     <Animation path="1/1/1/1/6/3/1/1/1/1" />
     <Animation path="1/1/1/1/6/3/1/1/2/1" />
-    <Animation path="1/1/1/1/6/3/1/2/1/1" />
-    <Animation path="1/1/1/1/6/3/1/2/2/1" />
+    <Animation path="1/1/1/1/6/3/1/7/1/1" />
+    <Animation path="1/1/1/1/6/3/1/7/2/1" />
     <Animation path="1/2/2" />
     <Animation path="1/2/3/1" />
     <Animation path="1/2/4/1/1/1" />
@@ -41,5 +41,5 @@
   <Timeline name="Looping" start="0" duration="10009910">
     <Animation path="1/1/1/1/2" />
   </Timeline>
-  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-09-28 20:30:52" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-10-18 00:45:33" />
 </SceneLayout>
